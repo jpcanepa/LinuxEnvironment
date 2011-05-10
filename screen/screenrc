@@ -1,0 +1,46 @@
+#hardstatus alwayslastline "%w"
+# ~/.screenrc
+
+# UTF-8 everywhere
+defutf8 on
+
+# disable Ctrl-S/Ctrl-Q "flow control"
+defflow off
+
+# skip intro
+startup_message off
+
+# detach on disconnect
+autodetach on
+
+# use regular audible bell
+#vbell off
+
+#escape "^Zz"
+
+# make the shell in every window a login shell
+shell -$SHELL
+
+
+defscrollback 4096
+
+# restore window contents after using (e.g.) vi
+
+
+# Set the caption on the bottom line:
+# window-list <nowplaying> <mm/dd/yy> <HH:MM>am/pm
+# caption always "%{= kw}%-w%{= BW}%n %t%{-}%+w %-= %1` %m/%d/%y %C:%s%a"
+# caption always "%{= kw}%-w%{= rW}%n %t%{-}%+w %-= %1`"
+#caption always "%{= ky}%-w%{= rW}%n %t%{-}%+w %-= %1`"
+caption splitonly "%{ yb} %=%{ wr} %n %t %{-}"
+
+#hardstatus alwayslastline "%{+b kr}[ %H ] %{ky} Load: %l %-=%{kb} %c  %d.%m.%Y"
+hardstatus alwayslastline "%{= kr}[ %H %{kR}Load: %l %{-}] %{= ky}%-w%{= rW}%n %t%{-}%+w %-=%{kg} %c  %d.%m.%Y"
+
+# default windows
+screen -t Misc   5 
+screen -t cscope 4
+screen -t Edit   3
+screen -t Run-g  2
+screen -t Run-O  1
+screen -t Build  0

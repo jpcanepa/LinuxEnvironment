@@ -1,0 +1,1151 @@
+execve("/usr/bin/vim", ["vim"], [/* 82 vars */]) = 0
+uname({sys="Linux", node="hplc6-06", ...}) = 0
+brk(0)                                  = 0x656000
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x2a9556b000
+access("/etc/ld.so.preload", R_OK)      = -1 ENOENT (No such file or directory)
+open("/usr/lib64/perl5/5.8.5/x86_64-linux-thread-multi/CORE/tls/x86_64/libncurses.so.5", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/usr/lib64/perl5/5.8.5/x86_64-linux-thread-multi/CORE/tls/x86_64", 0x7fbfffe030) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/perl5/5.8.5/x86_64-linux-thread-multi/CORE/tls/libncurses.so.5", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/usr/lib64/perl5/5.8.5/x86_64-linux-thread-multi/CORE/tls", 0x7fbfffe030) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/perl5/5.8.5/x86_64-linux-thread-multi/CORE/x86_64/libncurses.so.5", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/usr/lib64/perl5/5.8.5/x86_64-linux-thread-multi/CORE/x86_64", 0x7fbfffe030) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/perl5/5.8.5/x86_64-linux-thread-multi/CORE/libncurses.so.5", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/usr/lib64/perl5/5.8.5/x86_64-linux-thread-multi/CORE", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+open("/usr/local/lib/tls/x86_64/libncurses.so.5", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/usr/local/lib/tls/x86_64", 0x7fbfffe030) = -1 ENOENT (No such file or directory)
+open("/usr/local/lib/tls/libncurses.so.5", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/usr/local/lib/tls", 0x7fbfffe030) = -1 ENOENT (No such file or directory)
+open("/usr/local/lib/x86_64/libncurses.so.5", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/usr/local/lib/x86_64", 0x7fbfffe030) = -1 ENOENT (No such file or directory)
+open("/usr/local/lib/libncurses.so.5", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/usr/local/lib", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+open("/etc/ld.so.cache", O_RDONLY)      = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=201428, ...}) = 0
+mmap(NULL, 201428, PROT_READ, MAP_PRIVATE, 3, 0) = 0x2a9556c000
+close(3)                                = 0
+open("/usr/lib64/libncurses.so.5", O_RDONLY) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\240\370\1\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=1294306, ...}) = 0
+mmap(NULL, 1423608, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x2a9566c000
+mprotect(0x2a956b9000, 1108216, PROT_NONE) = 0
+mmap(0x2a957b9000, 57344, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x4d000) = 0x2a957b9000
+mmap(0x2a957c7000, 2296, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x2a957c7000
+close(3)                                = 0
+open("/usr/lib64/perl5/5.8.5/x86_64-linux-thread-multi/CORE/libselinux.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/local/lib/libselinux.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/lib64/libselinux.so.1", O_RDONLY) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\20,\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=60336, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x2a957c8000
+mmap(NULL, 1111648, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x2a957c9000
+mprotect(0x2a957d7000, 1054304, PROT_NONE) = 0
+mmap(0x2a958d7000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xe000) = 0x2a958d7000
+mmap(0x2a958d8000, 1632, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x2a958d8000
+close(3)                                = 0
+open("/usr/lib64/perl5/5.8.5/x86_64-linux-thread-multi/CORE/libacl.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/local/lib/libacl.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/lib64/libacl.so.1", O_RDONLY)    = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\220\31\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=26376, ...}) = 0
+mmap(NULL, 1073064, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x2a958d9000
+mprotect(0x2a958df000, 1048488, PROT_NONE) = 0
+mmap(0x2a959de000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x5000) = 0x2a959de000
+close(3)                                = 0
+open("/usr/lib64/perl5/5.8.5/x86_64-linux-thread-multi/CORE/libgpm.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/local/lib/libgpm.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/libgpm.so.1", O_RDONLY) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\220 \0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=23592, ...}) = 0
+mmap(NULL, 1071376, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x2a959df000
+mprotect(0x2a959e4000, 1050896, PROT_NONE) = 0
+mmap(0x2a95ae4000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x5000) = 0x2a95ae4000
+close(3)                                = 0
+open("/usr/lib64/perl5/5.8.5/x86_64-linux-thread-multi/CORE/libperl.so", O_RDONLY) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0`J\3\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0555, st_size=1383296, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x2a95ae5000
+mmap(NULL, 2436768, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x2a95ae6000
+mprotect(0x2a95c28000, 1117856, PROT_NONE) = 0
+mmap(0x2a95d28000, 61440, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x142000) = 0x2a95d28000
+mmap(0x2a95d37000, 7840, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x2a95d37000
+close(3)                                = 0
+open("/usr/lib64/perl5/5.8.5/x86_64-linux-thread-multi/CORE/libm.so.6", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/local/lib/libm.so.6", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/lib64/tls/libm.so.6", O_RDONLY)  = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\360=\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=640112, ...}) = 0
+mmap(NULL, 1593800, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x2a95d39000
+mprotect(0x2a95dbe000, 1049032, PROT_NONE) = 0
+mmap(0x2a95ebd000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x84000) = 0x2a95ebd000
+close(3)                                = 0
+open("/usr/lib64/perl5/5.8.5/x86_64-linux-thread-multi/CORE/libutil.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/local/lib/libutil.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/lib64/libutil.so.1", O_RDONLY)   = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\200\21\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=16280, ...}) = 0
+mmap(NULL, 1057048, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x2a95ebf000
+mprotect(0x2a95ec1000, 1048856, PROT_NONE) = 0
+mmap(0x2a95fc0000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1000) = 0x2a95fc0000
+close(3)                                = 0
+open("/usr/lib64/perl5/5.8.5/x86_64-linux-thread-multi/CORE/libc.so.6", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/local/lib/libc.so.6", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/lib64/tls/libc.so.6", O_RDONLY)  = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\240\304\1\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=1617216, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x2a95fc2000
+mmap(NULL, 2314184, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x2a95fc3000
+mprotect(0x2a960ef000, 1085384, PROT_NONE) = 0
+mmap(0x2a961ef000, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x12c000) = 0x2a961ef000
+mmap(0x2a961f4000, 16328, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x2a961f4000
+close(3)                                = 0
+open("/usr/lib64/perl5/5.8.5/x86_64-linux-thread-multi/CORE/libdl.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/local/lib/libdl.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/lib64/libdl.so.2", O_RDONLY)     = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\200\17\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=17000, ...}) = 0
+mmap(NULL, 1056968, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x2a961f8000
+mprotect(0x2a961fa000, 1048776, PROT_NONE) = 0
+mmap(0x2a962f9000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1000) = 0x2a962f9000
+close(3)                                = 0
+open("/usr/lib64/perl5/5.8.5/x86_64-linux-thread-multi/CORE/libpthread.so.0", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/local/lib/libpthread.so.0", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/lib64/tls/libpthread.so.0", O_RDONLY) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0 V\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=126896, ...}) = 0
+mmap(NULL, 1131384, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x2a962fb000
+mprotect(0x2a9630b000, 1065848, PROT_NONE) = 0
+mmap(0x2a9640a000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xf000) = 0x2a9640a000
+mmap(0x2a9640c000, 13176, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x2a9640c000
+close(3)                                = 0
+open("/usr/lib64/perl5/5.8.5/x86_64-linux-thread-multi/CORE/libattr.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/perl5/5.8.5/x86_64-linux-thread-multi/CORE/libattr.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/local/lib/libattr.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/lib64/libattr.so.1", O_RDONLY)   = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\360\17\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=41586, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x2a96410000
+mmap(NULL, 1060152, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x2a96411000
+mprotect(0x2a96414000, 1047864, PROT_NONE) = 0
+mmap(0x2a96513000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x2a96513000
+close(3)                                = 0
+open("/usr/lib64/perl5/5.8.5/x86_64-linux-thread-multi/CORE/libresolv.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/perl5/5.8.5/x86_64-linux-thread-multi/CORE/libresolv.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/local/lib/libresolv.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/lib64/libresolv.so.2", O_RDONLY) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\2406\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=90672, ...}) = 0
+mmap(NULL, 1133256, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x2a96514000
+mprotect(0x2a96525000, 1063624, PROT_NONE) = 0
+mmap(0x2a96625000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x11000) = 0x2a96625000
+mmap(0x2a96627000, 6856, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x2a96627000
+close(3)                                = 0
+open("/usr/lib64/perl5/5.8.5/x86_64-linux-thread-multi/CORE/libnsl.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/perl5/5.8.5/x86_64-linux-thread-multi/CORE/libnsl.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/local/lib/libnsl.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/lib64/libnsl.so.1", O_RDONLY)    = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0`M\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=112176, ...}) = 0
+mmap(NULL, 1145936, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x2a96629000
+mprotect(0x2a9663e000, 1059920, PROT_NONE) = 0
+mmap(0x2a9673d000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x14000) = 0x2a9673d000
+mmap(0x2a9673f000, 7248, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x2a9673f000
+close(3)                                = 0
+open("/usr/lib64/perl5/5.8.5/x86_64-linux-thread-multi/CORE/libcrypt.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/perl5/5.8.5/x86_64-linux-thread-multi/CORE/libcrypt.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/local/lib/libcrypt.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/lib64/libcrypt.so.1", O_RDONLY)  = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0@\v\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=28960, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x2a96741000
+mmap(NULL, 1257888, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x2a96742000
+mprotect(0x2a96747000, 1237408, PROT_NONE) = 0
+mmap(0x2a96846000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x4000) = 0x2a96846000
+mmap(0x2a96848000, 184736, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x2a96848000
+close(3)                                = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x2a96876000
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x2a96877000
+mprotect(0x2a96846000, 4096, PROT_READ) = 0
+mprotect(0x2a9673d000, 4096, PROT_READ) = 0
+mprotect(0x2a96625000, 4096, PROT_READ) = 0
+mprotect(0x2a9640a000, 4096, PROT_READ) = 0
+mprotect(0x2a962f9000, 4096, PROT_READ) = 0
+mprotect(0x2a961ef000, 12288, PROT_READ) = 0
+mprotect(0x2a95fc0000, 4096, PROT_READ) = 0
+mprotect(0x2a95ebd000, 4096, PROT_READ) = 0
+mprotect(0x2a9566a000, 4096, PROT_READ) = 0
+arch_prctl(ARCH_SET_FS, 0x2a96876d20)   = 0
+munmap(0x2a9556c000, 201428)            = 0
+set_tid_address(0x2a96876db0)           = 7632
+rt_sigaction(SIGRTMIN, {0x2a96300190, [], SA_RESTORER|SA_SIGINFO, 0x2a963075b0}, NULL, 8) = 0
+rt_sigaction(SIGRT_1, {0x2a96300210, [], SA_RESTORER|SA_RESTART|SA_SIGINFO, 0x2a963075b0}, NULL, 8) = 0
+rt_sigprocmask(SIG_UNBLOCK, [RTMIN RT_1], NULL, 8) = 0
+getrlimit(RLIMIT_STACK, {rlim_cur=10240*1024, rlim_max=RLIM_INFINITY}) = 0
+_sysctl({{CTL_KERN, KERN_VERSION}, 2, 0x7fbfffe870, 35, (nil), 0}) = 0
+access("/etc/selinux/", F_OK)           = 0
+brk(0)                                  = 0x656000
+brk(0x677000)                           = 0x677000
+open("/etc/selinux/config", O_RDONLY)   = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=448, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x2a9556c000
+read(3, "# This file controls the state o"..., 4096) = 448
+close(3)                                = 0
+munmap(0x2a9556c000, 4096)              = 0
+open("/proc/mounts", O_RDONLY)          = 3
+fstat(3, {st_mode=S_IFREG|0444, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x2a9556c000
+read(3, "rootfs / rootfs rw 0 0\n/proc /pr"..., 1024) = 1024
+close(3)                                = 0
+munmap(0x2a9556c000, 4096)              = 0
+getrlimit(RLIMIT_STACK, {rlim_cur=10240*1024, rlim_max=RLIM_INFINITY}) = 0
+sigaltstack({ss_sp=0x6574e0, ss_flags=0, ss_size=8192}, NULL) = 0
+open("/usr/lib/locale/locale-archive", O_RDONLY) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=48513424, ...}) = 0
+mmap(NULL, 48513424, PROT_READ, MAP_PRIVATE, 3, 0) = 0x2a96878000
+close(3)                                = 0
+stat("/usr/share/vim/vim63", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+ioctl(1, SNDCTL_TMR_TIMEBASE or TCGETS, {B38400 opost isig icanon echo ...}) = 0
+getcwd("/remote/us01home4/jpcanepa/.vim", 1024) = 32
+chdir("/remote/us01home4/jpcanepa/.vim") = 0
+chdir("/remote/us01home4/jpcanepa")     = 0
+getcwd("/remote/us01home4/jpcanepa", 1025) = 27
+chdir("/remote/us01home4/jpcanepa/.vim") = 0
+sysinfo({uptime=2661943, loads=[0, 0, 0] totalram=16805466112, freeram=1486602240, sharedram=0, bufferram=56967168} totalswap=34356985856, freeswap=34356772864, procs=216}) = 0
+getrlimit(RLIMIT_DATA, {rlim_cur=RLIM_INFINITY, rlim_max=RLIM_INFINITY}) = 0
+open("/usr/share/locale/locale.alias", O_RDONLY) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=2528, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x2a996bd000
+read(3, "# Locale name alias data base.\n#"..., 4096) = 2528
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+munmap(0x2a996bd000, 4096)              = 0
+open("/usr/share/vim/vim63/lang/en_US.UTF-8/LC_MESSAGES/vim.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/vim/vim63/lang/en_US.utf8/LC_MESSAGES/vim.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/vim/vim63/lang/en_US/LC_MESSAGES/vim.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/vim/vim63/lang/en.UTF-8/LC_MESSAGES/vim.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/vim/vim63/lang/en.utf8/LC_MESSAGES/vim.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/vim/vim63/lang/en/LC_MESSAGES/vim.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+rt_sigaction(SIGWINCH, {0x4c0520, [], SA_RESTORER, 0x2a95ff12f0}, {SIG_DFL}, 8) = 0
+rt_sigprocmask(SIG_UNBLOCK, [WINCH], [], 8) = 0
+rt_sigaction(SIGTSTP, {SIG_DFL}, {SIG_DFL}, 8) = 0
+rt_sigprocmask(SIG_UNBLOCK, [TSTP], [], 8) = 0
+rt_sigaction(SIGCONT, {0x4c05d0, [], SA_RESTORER, 0x2a95ff12f0}, {SIG_DFL}, 8) = 0
+rt_sigprocmask(SIG_UNBLOCK, [CONT], [], 8) = 0
+rt_sigaction(SIGPIPE, {SIG_IGN}, {SIG_IGN}, 8) = 0
+rt_sigprocmask(SIG_UNBLOCK, [PIPE], [], 8) = 0
+rt_sigaction(SIGINT, {0x4c0550, [], SA_RESTORER, 0x2a95ff12f0}, {SIG_IGN}, 8) = 0
+rt_sigprocmask(SIG_UNBLOCK, [INT], [], 8) = 0
+rt_sigaction(SIGALRM, {SIG_IGN}, {SIG_DFL}, 8) = 0
+rt_sigprocmask(SIG_UNBLOCK, [ALRM], [], 8) = 0
+rt_sigaction(SIGPWR, {0x4c0580, [], SA_RESTORER, 0x2a95ff12f0}, {SIG_DFL}, 8) = 0
+rt_sigprocmask(SIG_UNBLOCK, [PWR], [], 8) = 0
+rt_sigaction(SIGHUP, {0x4c0da0, [], SA_RESTORER, 0x2a95ff12f0}, NULL, 8) = 0
+rt_sigaction(SIGQUIT, {0x4c0da0, [], SA_RESTORER, 0x2a95ff12f0}, NULL, 8) = 0
+rt_sigaction(SIGILL, {0x4c0da0, [], SA_RESTORER, 0x2a95ff12f0}, NULL, 8) = 0
+rt_sigaction(SIGTRAP, {0x4c0da0, [], SA_RESTORER, 0x2a95ff12f0}, NULL, 8) = 0
+rt_sigaction(SIGABRT, {0x4c0da0, [], SA_RESTORER, 0x2a95ff12f0}, NULL, 8) = 0
+rt_sigaction(SIGFPE, {0x4c0da0, [], SA_RESTORER, 0x2a95ff12f0}, NULL, 8) = 0
+rt_sigaction(SIGBUS, {0x4c0da0, [], SA_RESTORER, 0x2a95ff12f0}, NULL, 8) = 0
+rt_sigaction(SIGSEGV, {0x4c0da0, [], SA_RESTORER, 0x2a95ff12f0}, NULL, 8) = 0
+rt_sigaction(SIGSYS, {0x4c0da0, [], SA_RESTORER, 0x2a95ff12f0}, NULL, 8) = 0
+rt_sigaction(SIGTERM, {0x4c0da0, [], SA_RESTORER, 0x2a95ff12f0}, NULL, 8) = 0
+rt_sigaction(SIGVTALRM, {0x4c0da0, [], SA_RESTORER, 0x2a95ff12f0}, NULL, 8) = 0
+rt_sigaction(SIGPROF, {0x4c0da0, [], SA_RESTORER, 0x2a95ff12f0}, NULL, 8) = 0
+rt_sigaction(SIGXCPU, {0x4c0da0, [], SA_RESTORER, 0x2a95ff12f0}, NULL, 8) = 0
+rt_sigaction(SIGXFSZ, {0x4c0da0, [], SA_RESTORER, 0x2a95ff12f0}, NULL, 8) = 0
+rt_sigaction(SIGUSR1, {0x4c0da0, [], SA_RESTORER, 0x2a95ff12f0}, NULL, 8) = 0
+rt_sigaction(SIGUSR2, {0x4c0da0, [], SA_RESTORER, 0x2a95ff12f0}, NULL, 8) = 0
+ioctl(0, SNDCTL_TMR_TIMEBASE or TCGETS, {B38400 opost isig icanon echo ...}) = 0
+ioctl(1, SNDCTL_TMR_TIMEBASE or TCGETS, {B38400 opost isig icanon echo ...}) = 0
+open("/usr/lib64/gconv/gconv-modules.cache", O_RDONLY) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=21546, ...}) = 0
+mmap(NULL, 21546, PROT_READ, MAP_SHARED, 3, 0) = 0x2a996bd000
+close(3)                                = 0
+futex(0x2a961f3bb8, FUTEX_WAKE, 2147483647) = 0
+access("/remote/us01home4/jpcanepa/.terminfo/s/screen", R_OK) = -1 ENOENT (No such file or directory)
+access("/usr/share/terminfo/s/screen", R_OK) = 0
+open("/usr/share/terminfo/s/screen", O_RDONLY) = 3
+read(3, "\32\1*\0+\0\20\0i\1[\2", 12)   = 12
+read(3, "screen|VT 100/ANSI X3.64 virtual"..., 42) = 42
+read(3, "\0\1\0\0\1\0\0\0\1\0\0\0\0\1\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 43) = 43
+read(3, "\0", 1)                        = 1
+read(3, "P\0\10\0\30\0\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\10\0@\0\3\0", 32) = 32
+read(3, "\0\0\4\0\6\0\10\0\31\0\36\0%\0)\0\377\377\377\377-\0>\0@\0D\0K\0\377\377"..., 722) = 722
+read(3, "\33[Z\0\7\0\r\0\33[%i%p1%d;%p2%dr\0\33[3g\0\33["..., 603) = 603
+read(3, "\0", 1)                        = 1
+read(3, "\2\0\0\0\2\0\6\0\30\0", 10)    = 10
+read(3, "\1\1", 2)                      = 2
+read(3, "\0\0\4\0\0\0\3\0\6\0\t\0", 12) = 12
+read(3, "\33(B\0\33(%p1%c\0AX\0G0\0E0\0S0\0", 24) = 24
+close(3)                                = 0
+ioctl(1, SNDCTL_TMR_TIMEBASE or TCGETS, {B38400 opost isig icanon echo ...}) = 0
+ioctl(1, SNDCTL_TMR_TIMEBASE or TCGETS, {B38400 opost isig icanon echo ...}) = 0
+ioctl(1, SNDCTL_TMR_TIMEBASE or TCGETS, {B38400 opost isig icanon echo ...}) = 0
+ioctl(1, TIOCGWINSZ, {ws_row=104, ws_col=280, ws_xpixel=0, ws_ypixel=0}) = 0
+ioctl(0, SNDCTL_TMR_TIMEBASE or TCGETS, {B38400 opost isig icanon echo ...}) = 0
+ioctl(1, SNDCTL_TMR_TIMEBASE or TCGETS, {B38400 opost isig icanon echo ...}) = 0
+ioctl(1, TIOCGWINSZ, {ws_row=104, ws_col=280, ws_xpixel=0, ws_ypixel=0}) = 0
+brk(0x698000)                           = 0x698000
+brk(0x6bb000)                           = 0x6bb000
+ioctl(1, SNDCTL_TMR_TIMEBASE or TCGETS, {B38400 opost isig icanon echo ...}) = 0
+ioctl(1, TIOCGWINSZ, {ws_row=104, ws_col=280, ws_xpixel=0, ws_ypixel=0}) = 0
+open(".", O_RDONLY)                     = 3
+fchdir(3)                               = 0
+chdir("/etc")                           = 0
+getcwd("/etc", 1024)                    = 5
+fchdir(3)                               = 0
+close(3)                                = 0
+stat("/etc/vimrc", {st_mode=S_IFREG|0644, st_size=1438, ...}) = 0
+open("/etc/vimrc", O_RDONLY)            = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=1438, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x2a996c3000
+read(3, "if v:lang =~ \"utf8$\" || v:lang ="..., 4096) = 1438
+lseek(3, 0, SEEK_SET)                   = 0
+stat("/etc/vimrc", {st_mode=S_IFREG|0644, st_size=1438, ...}) = 0
+read(3, "if v:lang =~ \"utf8$\" || v:lang ="..., 4096) = 1438
+stat("cscope.out", 0x7fbfffd980)        = -1 ENOENT (No such file or directory)
+open("cscope.out", O_RDONLY)            = -1 ENOENT (No such file or directory)
+open(".", O_RDONLY)                     = 4
+fchdir(4)                               = 0
+chdir("/usr/share/vim/vim63/syntax")    = 0
+getcwd("/usr/share/vim/vim63/syntax", 1024) = 28
+fchdir(4)                               = 0
+close(4)                                = 0
+stat("/usr/share/vim/vim63/syntax/syntax.vim", {st_mode=S_IFREG|0644, st_size=1228, ...}) = 0
+open("/usr/share/vim/vim63/syntax/syntax.vim", O_RDONLY) = 4
+fstat(4, {st_mode=S_IFREG|0644, st_size=1228, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x2a996c4000
+read(4, "\" Vim syntax support file\n\" Main"..., 4096) = 1228
+lseek(4, 0, SEEK_SET)                   = 0
+stat("/usr/share/vim/vim63/syntax/syntax.vim", {st_mode=S_IFREG|0644, st_size=1228, ...}) = 0
+read(4, "\" Vim syntax support file\n\" Main"..., 4096) = 1228
+stat("/remote/us01home4/jpcanepa/.vim/syntax/synload.vim", 0x7fbfffd500) = -1 ENOENT (No such file or directory)
+stat("/usr/share/vim/vim63/macros/vimfiles/syntax/synload.vim", 0x7fbfffd500) = -1 ENOENT (No such file or directory)
+stat("/usr/share/vim/vim63/syntax/synload.vim", {st_mode=S_IFREG|0644, st_size=1534, ...}) = 0
+stat("/usr/share/vim/vim63/syntax/synload.vim", {st_mode=S_IFREG|0644, st_size=1534, ...}) = 0
+stat("/usr/share/vim/vim63/syntax/synload.vim", {st_mode=S_IFREG|0644, st_size=1534, ...}) = 0
+open(".", O_RDONLY)                     = 5
+fchdir(5)                               = 0
+chdir("/usr/share/vim/vim63/syntax")    = 0
+getcwd("/usr/share/vim/vim63/syntax", 1024) = 28
+fchdir(5)                               = 0
+close(5)                                = 0
+stat("/usr/share/vim/vim63/syntax/synload.vim", {st_mode=S_IFREG|0644, st_size=1534, ...}) = 0
+open("/usr/share/vim/vim63/syntax/synload.vim", O_RDONLY) = 5
+fstat(5, {st_mode=S_IFREG|0644, st_size=1534, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x2a996c5000
+read(5, "\" Vim syntax support file\n\" Main"..., 4096) = 1534
+lseek(5, 0, SEEK_SET)                   = 0
+stat("/usr/share/vim/vim63/syntax/synload.vim", {st_mode=S_IFREG|0644, st_size=1534, ...}) = 0
+read(5, "\" Vim syntax support file\n\" Main"..., 4096) = 1534
+stat("/remote/us01home4/jpcanepa/.vim/syntax/syncolor.vim", 0x7fbfffce10) = -1 ENOENT (No such file or directory)
+stat("/usr/share/vim/vim63/macros/vimfiles/syntax/syncolor.vim", 0x7fbfffce10) = -1 ENOENT (No such file or directory)
+stat("/usr/share/vim/vim63/syntax/syncolor.vim", {st_mode=S_IFREG|0644, st_size=4093, ...}) = 0
+stat("/usr/share/vim/vim63/syntax/syncolor.vim", {st_mode=S_IFREG|0644, st_size=4093, ...}) = 0
+stat("/usr/share/vim/vim63/syntax/syncolor.vim", {st_mode=S_IFREG|0644, st_size=4093, ...}) = 0
+open(".", O_RDONLY)                     = 6
+fchdir(6)                               = 0
+chdir("/usr/share/vim/vim63/syntax")    = 0
+getcwd("/usr/share/vim/vim63/syntax", 1024) = 28
+fchdir(6)                               = 0
+close(6)                                = 0
+stat("/usr/share/vim/vim63/syntax/syncolor.vim", {st_mode=S_IFREG|0644, st_size=4093, ...}) = 0
+open("/usr/share/vim/vim63/syntax/syncolor.vim", O_RDONLY) = 6
+fstat(6, {st_mode=S_IFREG|0644, st_size=4093, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x2a996c6000
+read(6, "\" Vim syntax support file\n\" Main"..., 4096) = 4093
+lseek(6, 0, SEEK_SET)                   = 0
+stat("/usr/share/vim/vim63/syntax/syncolor.vim", {st_mode=S_IFREG|0644, st_size=4093, ...}) = 0
+read(6, "\" Vim syntax support file\n\" Main"..., 4096) = 4093
+read(6, "", 4096)                       = 0
+read(6, "", 4096)                       = 0
+close(6)                                = 0
+munmap(0x2a996c6000, 4096)              = 0
+stat("/usr/share/vim/vim63/macros/vimfiles/after/syntax/syncolor.vim", 0x7fbfffce10) = -1 ENOENT (No such file or directory)
+stat("/remote/us01home4/jpcanepa/.vim/after/syntax/syncolor.vim", 0x7fbfffce10) = -1 ENOENT (No such file or directory)
+read(5, "", 4096)                       = 0
+read(5, "", 4096)                       = 0
+close(5)                                = 0
+munmap(0x2a996c5000, 4096)              = 0
+stat("/remote/us01home4/jpcanepa/.vim/filetype.vim", 0x7fbfffd4d0) = -1 ENOENT (No such file or directory)
+stat("/usr/share/vim/vim63/macros/vimfiles/filetype.vim", 0x7fbfffd4d0) = -1 ENOENT (No such file or directory)
+stat("/usr/share/vim/vim63/filetype.vim", {st_mode=S_IFREG|0644, st_size=41378, ...}) = 0
+stat("/usr/share/vim/vim63/filetype.vim", {st_mode=S_IFREG|0644, st_size=41378, ...}) = 0
+stat("/usr/share/vim/vim63/filetype.vim", {st_mode=S_IFREG|0644, st_size=41378, ...}) = 0
+open(".", O_RDONLY)                     = 5
+fchdir(5)                               = 0
+chdir("/usr/share/vim/vim63")           = 0
+getcwd("/usr/share/vim/vim63", 1024)    = 21
+fchdir(5)                               = 0
+close(5)                                = 0
+stat("/usr/share/vim/vim63/filetype.vim", {st_mode=S_IFREG|0644, st_size=41378, ...}) = 0
+open("/usr/share/vim/vim63/filetype.vim", O_RDONLY) = 5
+fstat(5, {st_mode=S_IFREG|0644, st_size=41378, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x2a996c5000
+read(5, "\" Vim support file to detect fil"..., 4096) = 4096
+lseek(5, 0, SEEK_SET)                   = 0
+stat("/usr/share/vim/vim63/filetype.vim", {st_mode=S_IFREG|0644, st_size=41378, ...}) = 0
+read(5, "\" Vim support file to detect fil"..., 4096) = 4096
+read(5, "t head = \" \".getline(1).\" \".getl"..., 4096) = 4096
+read(5, "ly a change file.\n\" If the first"..., 4096) = 4096
+read(5, "nks\n\nfun! FTCheck_e()\n  let n = "..., 4096) = 4096
+brk(0x6dc000)                           = 0x6dc000
+read(5, " *.jj,*.jjt\t\tsetf javacc\n\n\" Java"..., 4096) = 4096
+read(5, "layer.conf,~/.mplayer/config\tset"..., 4096) = 4096
+read(5, "fNewFile,BufRead *.inc\t\t\tcall FT"..., 4096) = 4096
+read(5, "ents */\n      if getline(n) =~ \'"..., 4096) = 4096
+brk(0x6fd000)                           = 0x6fd000
+read(5, "\" Snobol4\nau BufNewFile,BufRead "..., 4096) = 4096
+read(5, "au BufNewFile,BufRead *.xs\t\t\tset"..., 4096) = 4096
+read(5, " the previously\n\" detected filet"..., 4096) = 418
+open("/remote/us01home4/jpcanepa/.vim/ftdetect/", O_RDONLY|O_NONBLOCK|O_DIRECTORY) = -1 ENOENT (No such file or directory)
+open("/usr/share/vim/vim63/macros/vimfiles/ftdetect/", O_RDONLY|O_NONBLOCK|O_DIRECTORY) = -1 ENOENT (No such file or directory)
+open("/usr/share/vim/vim63/ftdetect/", O_RDONLY|O_NONBLOCK|O_DIRECTORY) = -1 ENOENT (No such file or directory)
+open("/usr/share/vim/vim63/macros/vimfiles/after/ftdetect/", O_RDONLY|O_NONBLOCK|O_DIRECTORY) = -1 ENOENT (No such file or directory)
+open("/remote/us01home4/jpcanepa/.vim/after/ftdetect/", O_RDONLY|O_NONBLOCK|O_DIRECTORY) = -1 ENOENT (No such file or directory)
+read(5, "", 4096)                       = 0
+read(5, "", 4096)                       = 0
+close(5)                                = 0
+munmap(0x2a996c5000, 4096)              = 0
+stat("/usr/share/vim/vim63/macros/vimfiles/after/filetype.vim", 0x7fbfffd4d0) = -1 ENOENT (No such file or directory)
+stat("/remote/us01home4/jpcanepa/.vim/after/filetype.vim", 0x7fbfffd4d0) = -1 ENOENT (No such file or directory)
+read(4, "", 4096)                       = 0
+read(4, "", 4096)                       = 0
+close(4)                                = 0
+munmap(0x2a996c4000, 4096)              = 0
+read(3, "", 4096)                       = 0
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+munmap(0x2a996c3000, 4096)              = 0
+open(".", O_RDONLY)                     = 3
+fchdir(3)                               = 0
+chdir("/remote/us01home4/jpcanepa")     = 0
+getcwd("/remote/us01home4/jpcanepa", 1024) = 27
+fchdir(3)                               = 0
+close(3)                                = 0
+stat("/remote/us01home4/jpcanepa/.vimrc", {st_mode=S_IFREG|0644, st_size=5355, ...}) = 0
+open("/remote/us01home4/jpcanepa/.vimrc", O_RDONLY) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=5355, ...}) = 0
+mmap(NULL, 32768, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x2a996c3000
+read(3, "syntax on\nset tabstop=8\nset shif"..., 32768) = 5355
+lseek(3, 0, SEEK_SET)                   = 0
+stat("/remote/us01home4/jpcanepa/.vimrc", {st_mode=S_IFREG|0644, st_size=5355, ...}) = 0
+read(3, "syntax on\nset tabstop=8\nset shif"..., 32768) = 5355
+open(".", O_RDONLY)                     = 4
+fchdir(4)                               = 0
+chdir("/usr/share/vim/vim63/syntax")    = 0
+getcwd("/usr/share/vim/vim63/syntax", 1024) = 28
+fchdir(4)                               = 0
+close(4)                                = 0
+stat("/usr/share/vim/vim63/syntax/syntax.vim", {st_mode=S_IFREG|0644, st_size=1228, ...}) = 0
+open("/usr/share/vim/vim63/syntax/syntax.vim", O_RDONLY) = 4
+fstat(4, {st_mode=S_IFREG|0644, st_size=1228, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x2a996cb000
+read(4, "\" Vim syntax support file\n\" Main"..., 4096) = 1228
+lseek(4, 0, SEEK_SET)                   = 0
+stat("/usr/share/vim/vim63/syntax/syntax.vim", {st_mode=S_IFREG|0644, st_size=1228, ...}) = 0
+read(4, "\" Vim syntax support file\n\" Main"..., 4096) = 1228
+stat("/usr/share/vim/vim63/syntax/syntax.vim", {st_mode=S_IFREG|0644, st_size=1228, ...}) = 0
+open(".", O_RDONLY)                     = 5
+fchdir(5)                               = 0
+chdir("/usr/share/vim/vim63/syntax")    = 0
+getcwd("/usr/share/vim/vim63/syntax", 1024) = 28
+fchdir(5)                               = 0
+close(5)                                = 0
+stat("/usr/share/vim/vim63/syntax/nosyntax.vim", {st_mode=S_IFREG|0644, st_size=669, ...}) = 0
+open("/usr/share/vim/vim63/syntax/nosyntax.vim", O_RDONLY) = 5
+fstat(5, {st_mode=S_IFREG|0644, st_size=669, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x2a996cc000
+read(5, "\" Vim syntax support file\n\" Main"..., 4096) = 669
+lseek(5, 0, SEEK_SET)                   = 0
+stat("/usr/share/vim/vim63/syntax/nosyntax.vim", {st_mode=S_IFREG|0644, st_size=669, ...}) = 0
+read(5, "\" Vim syntax support file\n\" Main"..., 4096) = 669
+read(5, "", 4096)                       = 0
+read(5, "", 4096)                       = 0
+close(5)                                = 0
+munmap(0x2a996cc000, 4096)              = 0
+stat("/remote/us01home4/jpcanepa/.vim/syntax/synload.vim", 0x7fbfffd500) = -1 ENOENT (No such file or directory)
+stat("/usr/share/vim/vim63/macros/vimfiles/syntax/synload.vim", 0x7fbfffd500) = -1 ENOENT (No such file or directory)
+stat("/usr/share/vim/vim63/syntax/synload.vim", {st_mode=S_IFREG|0644, st_size=1534, ...}) = 0
+stat("/usr/share/vim/vim63/syntax/synload.vim", {st_mode=S_IFREG|0644, st_size=1534, ...}) = 0
+stat("/usr/share/vim/vim63/syntax/synload.vim", {st_mode=S_IFREG|0644, st_size=1534, ...}) = 0
+open(".", O_RDONLY)                     = 5
+fchdir(5)                               = 0
+chdir("/usr/share/vim/vim63/syntax")    = 0
+getcwd("/usr/share/vim/vim63/syntax", 1024) = 28
+fchdir(5)                               = 0
+close(5)                                = 0
+stat("/usr/share/vim/vim63/syntax/synload.vim", {st_mode=S_IFREG|0644, st_size=1534, ...}) = 0
+open("/usr/share/vim/vim63/syntax/synload.vim", O_RDONLY) = 5
+fstat(5, {st_mode=S_IFREG|0644, st_size=1534, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x2a996cc000
+read(5, "\" Vim syntax support file\n\" Main"..., 4096) = 1534
+lseek(5, 0, SEEK_SET)                   = 0
+stat("/usr/share/vim/vim63/syntax/synload.vim", {st_mode=S_IFREG|0644, st_size=1534, ...}) = 0
+read(5, "\" Vim syntax support file\n\" Main"..., 4096) = 1534
+stat("/remote/us01home4/jpcanepa/.vim/syntax/syncolor.vim", 0x7fbfffce10) = -1 ENOENT (No such file or directory)
+stat("/usr/share/vim/vim63/macros/vimfiles/syntax/syncolor.vim", 0x7fbfffce10) = -1 ENOENT (No such file or directory)
+stat("/usr/share/vim/vim63/syntax/syncolor.vim", {st_mode=S_IFREG|0644, st_size=4093, ...}) = 0
+stat("/usr/share/vim/vim63/syntax/syncolor.vim", {st_mode=S_IFREG|0644, st_size=4093, ...}) = 0
+stat("/usr/share/vim/vim63/syntax/syncolor.vim", {st_mode=S_IFREG|0644, st_size=4093, ...}) = 0
+open(".", O_RDONLY)                     = 6
+fchdir(6)                               = 0
+chdir("/usr/share/vim/vim63/syntax")    = 0
+getcwd("/usr/share/vim/vim63/syntax", 1024) = 28
+fchdir(6)                               = 0
+close(6)                                = 0
+stat("/usr/share/vim/vim63/syntax/syncolor.vim", {st_mode=S_IFREG|0644, st_size=4093, ...}) = 0
+open("/usr/share/vim/vim63/syntax/syncolor.vim", O_RDONLY) = 6
+fstat(6, {st_mode=S_IFREG|0644, st_size=4093, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x2a996cd000
+read(6, "\" Vim syntax support file\n\" Main"..., 4096) = 4093
+lseek(6, 0, SEEK_SET)                   = 0
+stat("/usr/share/vim/vim63/syntax/syncolor.vim", {st_mode=S_IFREG|0644, st_size=4093, ...}) = 0
+read(6, "\" Vim syntax support file\n\" Main"..., 4096) = 4093
+read(6, "", 4096)                       = 0
+read(6, "", 4096)                       = 0
+close(6)                                = 0
+munmap(0x2a996cd000, 4096)              = 0
+stat("/usr/share/vim/vim63/macros/vimfiles/after/syntax/syncolor.vim", 0x7fbfffce10) = -1 ENOENT (No such file or directory)
+stat("/remote/us01home4/jpcanepa/.vim/after/syntax/syncolor.vim", 0x7fbfffce10) = -1 ENOENT (No such file or directory)
+read(5, "", 4096)                       = 0
+read(5, "", 4096)                       = 0
+close(5)                                = 0
+munmap(0x2a996cc000, 4096)              = 0
+read(4, "", 4096)                       = 0
+read(4, "", 4096)                       = 0
+close(4)                                = 0
+munmap(0x2a996cb000, 4096)              = 0
+stat("/remote/us01home4/jpcanepa/.vim/colors/josee.vim", {st_mode=S_IFREG|0664, st_size=3111, ...}) = 0
+stat("/remote/us01home4/jpcanepa/.vim/colors/josee.vim", {st_mode=S_IFREG|0664, st_size=3111, ...}) = 0
+stat("/remote/us01home4/jpcanepa/.vim/colors/josee.vim", {st_mode=S_IFREG|0664, st_size=3111, ...}) = 0
+open(".", O_RDONLY)                     = 4
+fchdir(4)                               = 0
+chdir("/remote/us01home4/jpcanepa/.vim/colors") = 0
+getcwd("/remote/us01home4/jpcanepa/.vim/colors", 1024) = 39
+fchdir(4)                               = 0
+close(4)                                = 0
+stat("/remote/us01home4/jpcanepa/.vim/colors/josee.vim", {st_mode=S_IFREG|0664, st_size=3111, ...}) = 0
+open("/remote/us01home4/jpcanepa/.vim/colors/josee.vim", O_RDONLY) = 4
+fstat(4, {st_mode=S_IFREG|0664, st_size=3111, ...}) = 0
+mmap(NULL, 32768, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x2a996cb000
+read(4, "\" local syntax file - set colors"..., 32768) = 3111
+lseek(4, 0, SEEK_SET)                   = 0
+stat("/remote/us01home4/jpcanepa/.vim/colors/josee.vim", {st_mode=S_IFREG|0664, st_size=3111, ...}) = 0
+read(4, "\" local syntax file - set colors"..., 32768) = 3111
+stat("/remote/us01home4/jpcanepa/.vim/syntax/syncolor.vim", 0x7fbfffd930) = -1 ENOENT (No such file or directory)
+stat("/usr/share/vim/vim63/macros/vimfiles/syntax/syncolor.vim", 0x7fbfffd930) = -1 ENOENT (No such file or directory)
+stat("/usr/share/vim/vim63/syntax/syncolor.vim", {st_mode=S_IFREG|0644, st_size=4093, ...}) = 0
+stat("/usr/share/vim/vim63/syntax/syncolor.vim", {st_mode=S_IFREG|0644, st_size=4093, ...}) = 0
+stat("/usr/share/vim/vim63/syntax/syncolor.vim", {st_mode=S_IFREG|0644, st_size=4093, ...}) = 0
+open(".", O_RDONLY)                     = 5
+fchdir(5)                               = 0
+chdir("/usr/share/vim/vim63/syntax")    = 0
+getcwd("/usr/share/vim/vim63/syntax", 1024) = 28
+fchdir(5)                               = 0
+close(5)                                = 0
+stat("/usr/share/vim/vim63/syntax/syncolor.vim", {st_mode=S_IFREG|0644, st_size=4093, ...}) = 0
+open("/usr/share/vim/vim63/syntax/syncolor.vim", O_RDONLY) = 5
+fstat(5, {st_mode=S_IFREG|0644, st_size=4093, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x2a996d3000
+read(5, "\" Vim syntax support file\n\" Main"..., 4096) = 4093
+lseek(5, 0, SEEK_SET)                   = 0
+stat("/usr/share/vim/vim63/syntax/syncolor.vim", {st_mode=S_IFREG|0644, st_size=4093, ...}) = 0
+read(5, "\" Vim syntax support file\n\" Main"..., 4096) = 4093
+read(5, "", 4096)                       = 0
+read(5, "", 4096)                       = 0
+close(5)                                = 0
+munmap(0x2a996d3000, 4096)              = 0
+stat("/usr/share/vim/vim63/macros/vimfiles/after/syntax/syncolor.vim", 0x7fbfffd930) = -1 ENOENT (No such file or directory)
+stat("/remote/us01home4/jpcanepa/.vim/after/syntax/syncolor.vim", 0x7fbfffd930) = -1 ENOENT (No such file or directory)
+stat("/remote/us01home4/jpcanepa/.vim/syntax/syncolor.vim", 0x7fbfffd8c0) = -1 ENOENT (No such file or directory)
+stat("/usr/share/vim/vim63/macros/vimfiles/syntax/syncolor.vim", 0x7fbfffd8c0) = -1 ENOENT (No such file or directory)
+stat("/usr/share/vim/vim63/syntax/syncolor.vim", {st_mode=S_IFREG|0644, st_size=4093, ...}) = 0
+stat("/usr/share/vim/vim63/syntax/syncolor.vim", {st_mode=S_IFREG|0644, st_size=4093, ...}) = 0
+stat("/usr/share/vim/vim63/syntax/syncolor.vim", {st_mode=S_IFREG|0644, st_size=4093, ...}) = 0
+open(".", O_RDONLY)                     = 5
+fchdir(5)                               = 0
+chdir("/usr/share/vim/vim63/syntax")    = 0
+getcwd("/usr/share/vim/vim63/syntax", 1024) = 28
+fchdir(5)                               = 0
+close(5)                                = 0
+stat("/usr/share/vim/vim63/syntax/syncolor.vim", {st_mode=S_IFREG|0644, st_size=4093, ...}) = 0
+open("/usr/share/vim/vim63/syntax/syncolor.vim", O_RDONLY) = 5
+fstat(5, {st_mode=S_IFREG|0644, st_size=4093, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x2a996d3000
+read(5, "\" Vim syntax support file\n\" Main"..., 4096) = 4093
+lseek(5, 0, SEEK_SET)                   = 0
+stat("/usr/share/vim/vim63/syntax/syncolor.vim", {st_mode=S_IFREG|0644, st_size=4093, ...}) = 0
+read(5, "\" Vim syntax support file\n\" Main"..., 4096) = 4093
+read(5, "", 4096)                       = 0
+read(5, "", 4096)                       = 0
+close(5)                                = 0
+munmap(0x2a996d3000, 4096)              = 0
+stat("/usr/share/vim/vim63/macros/vimfiles/after/syntax/syncolor.vim", 0x7fbfffd8c0) = -1 ENOENT (No such file or directory)
+stat("/remote/us01home4/jpcanepa/.vim/after/syntax/syncolor.vim", 0x7fbfffd8c0) = -1 ENOENT (No such file or directory)
+stat("/remote/us01home4/jpcanepa/.vim/syntax/syncolor.vim", 0x7fbfffd4f0) = -1 ENOENT (No such file or directory)
+stat("/usr/share/vim/vim63/macros/vimfiles/syntax/syncolor.vim", 0x7fbfffd4f0) = -1 ENOENT (No such file or directory)
+stat("/usr/share/vim/vim63/syntax/syncolor.vim", {st_mode=S_IFREG|0644, st_size=4093, ...}) = 0
+stat("/usr/share/vim/vim63/syntax/syncolor.vim", {st_mode=S_IFREG|0644, st_size=4093, ...}) = 0
+stat("/usr/share/vim/vim63/syntax/syncolor.vim", {st_mode=S_IFREG|0644, st_size=4093, ...}) = 0
+open(".", O_RDONLY)                     = 5
+fchdir(5)                               = 0
+chdir("/usr/share/vim/vim63/syntax")    = 0
+getcwd("/usr/share/vim/vim63/syntax", 1024) = 28
+fchdir(5)                               = 0
+close(5)                                = 0
+stat("/usr/share/vim/vim63/syntax/syncolor.vim", {st_mode=S_IFREG|0644, st_size=4093, ...}) = 0
+open("/usr/share/vim/vim63/syntax/syncolor.vim", O_RDONLY) = 5
+fstat(5, {st_mode=S_IFREG|0644, st_size=4093, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x2a996d3000
+read(5, "\" Vim syntax support file\n\" Main"..., 4096) = 4093
+lseek(5, 0, SEEK_SET)                   = 0
+stat("/usr/share/vim/vim63/syntax/syncolor.vim", {st_mode=S_IFREG|0644, st_size=4093, ...}) = 0
+read(5, "\" Vim syntax support file\n\" Main"..., 4096) = 4093
+read(5, "", 4096)                       = 0
+read(5, "", 4096)                       = 0
+close(5)                                = 0
+munmap(0x2a996d3000, 4096)              = 0
+stat("/usr/share/vim/vim63/macros/vimfiles/after/syntax/syncolor.vim", 0x7fbfffd4f0) = -1 ENOENT (No such file or directory)
+stat("/remote/us01home4/jpcanepa/.vim/after/syntax/syncolor.vim", 0x7fbfffd4f0) = -1 ENOENT (No such file or directory)
+read(4, "", 32768)                      = 0
+read(4, "", 32768)                      = 0
+close(4)                                = 0
+munmap(0x2a996cb000, 32768)             = 0
+open(".", O_RDONLY)                     = 4
+fchdir(4)                               = 0
+chdir("/usr/share/vim/vim63/syntax")    = 0
+getcwd("/usr/share/vim/vim63/syntax", 1024) = 28
+fchdir(4)                               = 0
+close(4)                                = 0
+stat("/usr/share/vim/vim63/syntax/syntax.vim", {st_mode=S_IFREG|0644, st_size=1228, ...}) = 0
+open("/usr/share/vim/vim63/syntax/syntax.vim", O_RDONLY) = 4
+fstat(4, {st_mode=S_IFREG|0644, st_size=1228, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x2a996cb000
+read(4, "\" Vim syntax support file\n\" Main"..., 4096) = 1228
+lseek(4, 0, SEEK_SET)                   = 0
+stat("/usr/share/vim/vim63/syntax/syntax.vim", {st_mode=S_IFREG|0644, st_size=1228, ...}) = 0
+read(4, "\" Vim syntax support file\n\" Main"..., 4096) = 1228
+stat("/usr/share/vim/vim63/syntax/syntax.vim", {st_mode=S_IFREG|0644, st_size=1228, ...}) = 0
+open(".", O_RDONLY)                     = 5
+fchdir(5)                               = 0
+chdir("/usr/share/vim/vim63/syntax")    = 0
+getcwd("/usr/share/vim/vim63/syntax", 1024) = 28
+fchdir(5)                               = 0
+close(5)                                = 0
+stat("/usr/share/vim/vim63/syntax/nosyntax.vim", {st_mode=S_IFREG|0644, st_size=669, ...}) = 0
+open("/usr/share/vim/vim63/syntax/nosyntax.vim", O_RDONLY) = 5
+fstat(5, {st_mode=S_IFREG|0644, st_size=669, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x2a996cc000
+read(5, "\" Vim syntax support file\n\" Main"..., 4096) = 669
+lseek(5, 0, SEEK_SET)                   = 0
+stat("/usr/share/vim/vim63/syntax/nosyntax.vim", {st_mode=S_IFREG|0644, st_size=669, ...}) = 0
+read(5, "\" Vim syntax support file\n\" Main"..., 4096) = 669
+read(5, "", 4096)                       = 0
+read(5, "", 4096)                       = 0
+close(5)                                = 0
+munmap(0x2a996cc000, 4096)              = 0
+stat("/remote/us01home4/jpcanepa/.vim/syntax/synload.vim", 0x7fbfffd500) = -1 ENOENT (No such file or directory)
+stat("/usr/share/vim/vim63/macros/vimfiles/syntax/synload.vim", 0x7fbfffd500) = -1 ENOENT (No such file or directory)
+stat("/usr/share/vim/vim63/syntax/synload.vim", {st_mode=S_IFREG|0644, st_size=1534, ...}) = 0
+stat("/usr/share/vim/vim63/syntax/synload.vim", {st_mode=S_IFREG|0644, st_size=1534, ...}) = 0
+stat("/usr/share/vim/vim63/syntax/synload.vim", {st_mode=S_IFREG|0644, st_size=1534, ...}) = 0
+open(".", O_RDONLY)                     = 5
+fchdir(5)                               = 0
+chdir("/usr/share/vim/vim63/syntax")    = 0
+getcwd("/usr/share/vim/vim63/syntax", 1024) = 28
+fchdir(5)                               = 0
+close(5)                                = 0
+stat("/usr/share/vim/vim63/syntax/synload.vim", {st_mode=S_IFREG|0644, st_size=1534, ...}) = 0
+open("/usr/share/vim/vim63/syntax/synload.vim", O_RDONLY) = 5
+fstat(5, {st_mode=S_IFREG|0644, st_size=1534, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x2a996cc000
+read(5, "\" Vim syntax support file\n\" Main"..., 4096) = 1534
+lseek(5, 0, SEEK_SET)                   = 0
+stat("/usr/share/vim/vim63/syntax/synload.vim", {st_mode=S_IFREG|0644, st_size=1534, ...}) = 0
+read(5, "\" Vim syntax support file\n\" Main"..., 4096) = 1534
+stat("/remote/us01home4/jpcanepa/.vim/colors/josee.vim", {st_mode=S_IFREG|0664, st_size=3111, ...}) = 0
+stat("/remote/us01home4/jpcanepa/.vim/colors/josee.vim", {st_mode=S_IFREG|0664, st_size=3111, ...}) = 0
+stat("/remote/us01home4/jpcanepa/.vim/colors/josee.vim", {st_mode=S_IFREG|0664, st_size=3111, ...}) = 0
+open(".", O_RDONLY)                     = 6
+fchdir(6)                               = 0
+chdir("/remote/us01home4/jpcanepa/.vim/colors") = 0
+getcwd("/remote/us01home4/jpcanepa/.vim/colors", 1024) = 39
+fchdir(6)                               = 0
+close(6)                                = 0
+stat("/remote/us01home4/jpcanepa/.vim/colors/josee.vim", {st_mode=S_IFREG|0664, st_size=3111, ...}) = 0
+open("/remote/us01home4/jpcanepa/.vim/colors/josee.vim", O_RDONLY) = 6
+fstat(6, {st_mode=S_IFREG|0664, st_size=3111, ...}) = 0
+mmap(NULL, 32768, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x2a996cd000
+read(6, "\" local syntax file - set colors"..., 32768) = 3111
+lseek(6, 0, SEEK_SET)                   = 0
+stat("/remote/us01home4/jpcanepa/.vim/colors/josee.vim", {st_mode=S_IFREG|0664, st_size=3111, ...}) = 0
+read(6, "\" local syntax file - set colors"..., 32768) = 3111
+stat("/remote/us01home4/jpcanepa/.vim/syntax/syncolor.vim", 0x7fbfffc010) = -1 ENOENT (No such file or directory)
+stat("/usr/share/vim/vim63/macros/vimfiles/syntax/syncolor.vim", 0x7fbfffc010) = -1 ENOENT (No such file or directory)
+stat("/usr/share/vim/vim63/syntax/syncolor.vim", {st_mode=S_IFREG|0644, st_size=4093, ...}) = 0
+stat("/usr/share/vim/vim63/syntax/syncolor.vim", {st_mode=S_IFREG|0644, st_size=4093, ...}) = 0
+stat("/usr/share/vim/vim63/syntax/syncolor.vim", {st_mode=S_IFREG|0644, st_size=4093, ...}) = 0
+open(".", O_RDONLY)                     = 7
+fchdir(7)                               = 0
+chdir("/usr/share/vim/vim63/syntax")    = 0
+getcwd("/usr/share/vim/vim63/syntax", 1024) = 28
+fchdir(7)                               = 0
+close(7)                                = 0
+stat("/usr/share/vim/vim63/syntax/syncolor.vim", {st_mode=S_IFREG|0644, st_size=4093, ...}) = 0
+open("/usr/share/vim/vim63/syntax/syncolor.vim", O_RDONLY) = 7
+fstat(7, {st_mode=S_IFREG|0644, st_size=4093, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x2a996d5000
+read(7, "\" Vim syntax support file\n\" Main"..., 4096) = 4093
+lseek(7, 0, SEEK_SET)                   = 0
+stat("/usr/share/vim/vim63/syntax/syncolor.vim", {st_mode=S_IFREG|0644, st_size=4093, ...}) = 0
+read(7, "\" Vim syntax support file\n\" Main"..., 4096) = 4093
+read(7, "", 4096)                       = 0
+read(7, "", 4096)                       = 0
+close(7)                                = 0
+munmap(0x2a996d5000, 4096)              = 0
+stat("/usr/share/vim/vim63/macros/vimfiles/after/syntax/syncolor.vim", 0x7fbfffc010) = -1 ENOENT (No such file or directory)
+stat("/remote/us01home4/jpcanepa/.vim/after/syntax/syncolor.vim", 0x7fbfffc010) = -1 ENOENT (No such file or directory)
+stat("/remote/us01home4/jpcanepa/.vim/syntax/syncolor.vim", 0x7fbfffbfa0) = -1 ENOENT (No such file or directory)
+stat("/usr/share/vim/vim63/macros/vimfiles/syntax/syncolor.vim", 0x7fbfffbfa0) = -1 ENOENT (No such file or directory)
+stat("/usr/share/vim/vim63/syntax/syncolor.vim", {st_mode=S_IFREG|0644, st_size=4093, ...}) = 0
+stat("/usr/share/vim/vim63/syntax/syncolor.vim", {st_mode=S_IFREG|0644, st_size=4093, ...}) = 0
+stat("/usr/share/vim/vim63/syntax/syncolor.vim", {st_mode=S_IFREG|0644, st_size=4093, ...}) = 0
+open(".", O_RDONLY)                     = 7
+fchdir(7)                               = 0
+chdir("/usr/share/vim/vim63/syntax")    = 0
+getcwd("/usr/share/vim/vim63/syntax", 1024) = 28
+fchdir(7)                               = 0
+close(7)                                = 0
+stat("/usr/share/vim/vim63/syntax/syncolor.vim", {st_mode=S_IFREG|0644, st_size=4093, ...}) = 0
+open("/usr/share/vim/vim63/syntax/syncolor.vim", O_RDONLY) = 7
+fstat(7, {st_mode=S_IFREG|0644, st_size=4093, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x2a996d5000
+read(7, "\" Vim syntax support file\n\" Main"..., 4096) = 4093
+lseek(7, 0, SEEK_SET)                   = 0
+stat("/usr/share/vim/vim63/syntax/syncolor.vim", {st_mode=S_IFREG|0644, st_size=4093, ...}) = 0
+read(7, "\" Vim syntax support file\n\" Main"..., 4096) = 4093
+read(7, "", 4096)                       = 0
+read(7, "", 4096)                       = 0
+close(7)                                = 0
+munmap(0x2a996d5000, 4096)              = 0
+stat("/usr/share/vim/vim63/macros/vimfiles/after/syntax/syncolor.vim", 0x7fbfffbfa0) = -1 ENOENT (No such file or directory)
+stat("/remote/us01home4/jpcanepa/.vim/after/syntax/syncolor.vim", 0x7fbfffbfa0) = -1 ENOENT (No such file or directory)
+stat("/remote/us01home4/jpcanepa/.vim/syntax/syncolor.vim", 0x7fbfffbbd0) = -1 ENOENT (No such file or directory)
+stat("/usr/share/vim/vim63/macros/vimfiles/syntax/syncolor.vim", 0x7fbfffbbd0) = -1 ENOENT (No such file or directory)
+stat("/usr/share/vim/vim63/syntax/syncolor.vim", {st_mode=S_IFREG|0644, st_size=4093, ...}) = 0
+stat("/usr/share/vim/vim63/syntax/syncolor.vim", {st_mode=S_IFREG|0644, st_size=4093, ...}) = 0
+stat("/usr/share/vim/vim63/syntax/syncolor.vim", {st_mode=S_IFREG|0644, st_size=4093, ...}) = 0
+open(".", O_RDONLY)                     = 7
+fchdir(7)                               = 0
+chdir("/usr/share/vim/vim63/syntax")    = 0
+getcwd("/usr/share/vim/vim63/syntax", 1024) = 28
+fchdir(7)                               = 0
+close(7)                                = 0
+stat("/usr/share/vim/vim63/syntax/syncolor.vim", {st_mode=S_IFREG|0644, st_size=4093, ...}) = 0
+open("/usr/share/vim/vim63/syntax/syncolor.vim", O_RDONLY) = 7
+fstat(7, {st_mode=S_IFREG|0644, st_size=4093, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x2a996d5000
+read(7, "\" Vim syntax support file\n\" Main"..., 4096) = 4093
+lseek(7, 0, SEEK_SET)                   = 0
+stat("/usr/share/vim/vim63/syntax/syncolor.vim", {st_mode=S_IFREG|0644, st_size=4093, ...}) = 0
+read(7, "\" Vim syntax support file\n\" Main"..., 4096) = 4093
+read(7, "", 4096)                       = 0
+read(7, "", 4096)                       = 0
+close(7)                                = 0
+munmap(0x2a996d5000, 4096)              = 0
+stat("/usr/share/vim/vim63/macros/vimfiles/after/syntax/syncolor.vim", 0x7fbfffbbd0) = -1 ENOENT (No such file or directory)
+stat("/remote/us01home4/jpcanepa/.vim/after/syntax/syncolor.vim", 0x7fbfffbbd0) = -1 ENOENT (No such file or directory)
+read(6, "", 32768)                      = 0
+read(6, "", 32768)                      = 0
+close(6)                                = 0
+munmap(0x2a996cd000, 32768)             = 0
+read(5, "", 4096)                       = 0
+read(5, "", 4096)                       = 0
+close(5)                                = 0
+munmap(0x2a996cc000, 4096)              = 0
+read(4, "", 4096)                       = 0
+read(4, "", 4096)                       = 0
+close(4)                                = 0
+munmap(0x2a996cb000, 4096)              = 0
+stat("/remote/us01home4/jpcanepa/.vim/filetype.vim", 0x7fbfffe150) = -1 ENOENT (No such file or directory)
+stat("/usr/share/vim/vim63/macros/vimfiles/filetype.vim", 0x7fbfffe150) = -1 ENOENT (No such file or directory)
+stat("/usr/share/vim/vim63/filetype.vim", {st_mode=S_IFREG|0644, st_size=41378, ...}) = 0
+stat("/usr/share/vim/vim63/filetype.vim", {st_mode=S_IFREG|0644, st_size=41378, ...}) = 0
+stat("/usr/share/vim/vim63/filetype.vim", {st_mode=S_IFREG|0644, st_size=41378, ...}) = 0
+open(".", O_RDONLY)                     = 4
+fchdir(4)                               = 0
+chdir("/usr/share/vim/vim63")           = 0
+getcwd("/usr/share/vim/vim63", 1024)    = 21
+fchdir(4)                               = 0
+close(4)                                = 0
+stat("/usr/share/vim/vim63/filetype.vim", {st_mode=S_IFREG|0644, st_size=41378, ...}) = 0
+open("/usr/share/vim/vim63/filetype.vim", O_RDONLY) = 4
+fstat(4, {st_mode=S_IFREG|0644, st_size=41378, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x2a996cb000
+read(4, "\" Vim support file to detect fil"..., 4096) = 4096
+lseek(4, 0, SEEK_SET)                   = 0
+stat("/usr/share/vim/vim63/filetype.vim", {st_mode=S_IFREG|0644, st_size=41378, ...}) = 0
+read(4, "\" Vim support file to detect fil"..., 4096) = 4096
+close(4)                                = 0
+munmap(0x2a996cb000, 4096)              = 0
+stat("/usr/share/vim/vim63/macros/vimfiles/after/filetype.vim", 0x7fbfffe150) = -1 ENOENT (No such file or directory)
+stat("/remote/us01home4/jpcanepa/.vim/after/filetype.vim", 0x7fbfffe150) = -1 ENOENT (No such file or directory)
+read(3, "", 32768)                      = 0
+read(3, "", 32768)                      = 0
+close(3)                                = 0
+munmap(0x2a996c3000, 32768)             = 0
+open("/remote/us01home4/jpcanepa/.vim/plugin/", O_RDONLY|O_NONBLOCK|O_DIRECTORY) = 3
+fstat(3, {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+fcntl(3, F_SETFD, FD_CLOEXEC)           = 0
+brk(0x721000)                           = 0x721000
+getdents64(3, /* 5 entries */, 32768)   = 160
+stat("/remote/us01home4/jpcanepa/.vim/plugin/taglist.vim", {st_mode=S_IFREG|0644, st_size=147930, ...}) = 0
+stat("/remote/us01home4/jpcanepa/.vim/plugin/taglist.vim", {st_mode=S_IFREG|0644, st_size=147930, ...}) = 0
+stat("/remote/us01home4/jpcanepa/.vim/plugin/taglist.vim", {st_mode=S_IFREG|0644, st_size=147930, ...}) = 0
+stat("/remote/us01home4/jpcanepa/.vim/plugin/diffchanges.vim", {st_mode=S_IFREG|0644, st_size=3647, ...}) = 0
+stat("/remote/us01home4/jpcanepa/.vim/plugin/diffchanges.vim", {st_mode=S_IFREG|0644, st_size=3647, ...}) = 0
+stat("/remote/us01home4/jpcanepa/.vim/plugin/diffchanges.vim", {st_mode=S_IFREG|0644, st_size=3647, ...}) = 0
+stat("/remote/us01home4/jpcanepa/.vim/plugin/ccomments.vim", {st_mode=S_IFREG|0664, st_size=1618, ...}) = 0
+stat("/remote/us01home4/jpcanepa/.vim/plugin/ccomments.vim", {st_mode=S_IFREG|0664, st_size=1618, ...}) = 0
+stat("/remote/us01home4/jpcanepa/.vim/plugin/ccomments.vim", {st_mode=S_IFREG|0664, st_size=1618, ...}) = 0
+getdents64(3, /* 0 entries */, 32768)   = 0
+brk(0x719000)                           = 0x719000
+close(3)                                = 0
+open(".", O_RDONLY)                     = 3
+fchdir(3)                               = 0
+chdir("/remote/us01home4/jpcanepa/.vim/plugin") = 0
+getcwd("/remote/us01home4/jpcanepa/.vim/plugin", 1024) = 39
+fchdir(3)                               = 0
+close(3)                                = 0
+stat("/remote/us01home4/jpcanepa/.vim/plugin/ccomments.vim", {st_mode=S_IFREG|0664, st_size=1618, ...}) = 0
+open("/remote/us01home4/jpcanepa/.vim/plugin/ccomments.vim", O_RDONLY) = 3
+fstat(3, {st_mode=S_IFREG|0664, st_size=1618, ...}) = 0
+mmap(NULL, 32768, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x2a996c3000
+read(3, "\" COMMENT.vim\n\"\tAuthor:\t\tJeff Cr"..., 32768) = 1618
+lseek(3, 0, SEEK_SET)                   = 0
+stat("/remote/us01home4/jpcanepa/.vim/plugin/ccomments.vim", {st_mode=S_IFREG|0664, st_size=1618, ...}) = 0
+read(3, "\" COMMENT.vim\n\"\tAuthor:\t\tJeff Cr"..., 32768) = 1618
+read(3, "", 32768)                      = 0
+read(3, "", 32768)                      = 0
+close(3)                                = 0
+munmap(0x2a996c3000, 32768)             = 0
+open(".", O_RDONLY)                     = 3
+fchdir(3)                               = 0
+chdir("/remote/us01home4/jpcanepa/.vim/plugin") = 0
+getcwd("/remote/us01home4/jpcanepa/.vim/plugin", 1024) = 39
+fchdir(3)                               = 0
+close(3)                                = 0
+stat("/remote/us01home4/jpcanepa/.vim/plugin/diffchanges.vim", {st_mode=S_IFREG|0644, st_size=3647, ...}) = 0
+open("/remote/us01home4/jpcanepa/.vim/plugin/diffchanges.vim", O_RDONLY) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=3647, ...}) = 0
+mmap(NULL, 32768, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x2a996c3000
+read(3, "\" Filename:      diffchanges.vim"..., 32768) = 3647
+lseek(3, 0, SEEK_SET)                   = 0
+stat("/remote/us01home4/jpcanepa/.vim/plugin/diffchanges.vim", {st_mode=S_IFREG|0644, st_size=3647, ...}) = 0
+read(3, "\" Filename:      diffchanges.vim"..., 32768) = 3647
+close(3)                                = 0
+munmap(0x2a996c3000, 32768)             = 0
+open(".", O_RDONLY)                     = 3
+fchdir(3)                               = 0
+chdir("/remote/us01home4/jpcanepa/.vim/plugin") = 0
+getcwd("/remote/us01home4/jpcanepa/.vim/plugin", 1024) = 39
+fchdir(3)                               = 0
+close(3)                                = 0
+stat("/remote/us01home4/jpcanepa/.vim/plugin/taglist.vim", {st_mode=S_IFREG|0644, st_size=147930, ...}) = 0
+open("/remote/us01home4/jpcanepa/.vim/plugin/taglist.vim", O_RDONLY) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=147930, ...}) = 0
+mmap(NULL, 32768, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x2a996c3000
+read(3, "\" File: taglist.vim\n\" Author: Ye"..., 32768) = 32768
+lseek(3, 0, SEEK_SET)                   = 0
+stat("/remote/us01home4/jpcanepa/.vim/plugin/taglist.vim", {st_mode=S_IFREG|0644, st_size=147930, ...}) = 0
+read(3, "\" File: taglist.vim\n\" Author: Ye"..., 32768) = 32768
+stat("/remote/us01home4/jpcanepa/bin/bin/exuberant-ctags", 0x7fbfffd8e0) = -1 ENOENT (No such file or directory)
+stat("/sbin/exuberant-ctags", 0x7fbfffd8e0) = -1 ENOENT (No such file or directory)
+stat("./exuberant-ctags", 0x7fbfffd8e0) = -1 ENOENT (No such file or directory)
+stat("./exuberant-ctags", 0x7fbfffd8e0) = -1 ENOENT (No such file or directory)
+stat("~/bin/exuberant-ctags", 0x7fbfffd8e0) = -1 ENOENT (No such file or directory)
+stat("/remote/catsglobal/exuberant-ctags", 0x7fbfffd8e0) = -1 ENOENT (No such file or directory)
+stat("/bin/exuberant-ctags", 0x7fbfffd8e0) = -1 ENOENT (No such file or directory)
+stat("/usr/bin/exuberant-ctags", 0x7fbfffd8e0) = -1 ENOENT (No such file or directory)
+stat("/usr/X11R6/bin/exuberant-ctags", 0x7fbfffd8e0) = -1 ENOENT (No such file or directory)
+stat("/usr/local/bin/exuberant-ctags", 0x7fbfffd8e0) = -1 ENOENT (No such file or directory)
+stat("/remote/us01home4/jpcanepa/bin/bin/exctags", 0x7fbfffd8d0) = -1 ENOENT (No such file or directory)
+stat("/sbin/exctags", 0x7fbfffd8d0)     = -1 ENOENT (No such file or directory)
+stat("./exctags", 0x7fbfffd8d0)         = -1 ENOENT (No such file or directory)
+stat("./exctags", 0x7fbfffd8d0)         = -1 ENOENT (No such file or directory)
+stat("~/bin/exctags", 0x7fbfffd8d0)     = -1 ENOENT (No such file or directory)
+stat("/remote/catsglobal/exctags", 0x7fbfffd8d0) = -1 ENOENT (No such file or directory)
+stat("/bin/exctags", 0x7fbfffd8d0)      = -1 ENOENT (No such file or directory)
+stat("/usr/bin/exctags", 0x7fbfffd8d0)  = -1 ENOENT (No such file or directory)
+stat("/usr/X11R6/bin/exctags", 0x7fbfffd8d0) = -1 ENOENT (No such file or directory)
+stat("/usr/local/bin/exctags", 0x7fbfffd8d0) = -1 ENOENT (No such file or directory)
+stat("/remote/us01home4/jpcanepa/bin/bin/ctags", 0x7fbfffd8d0) = -1 ENOENT (No such file or directory)
+stat("/sbin/ctags", 0x7fbfffd8d0)       = -1 ENOENT (No such file or directory)
+stat("./ctags", 0x7fbfffd8d0)           = -1 ENOENT (No such file or directory)
+stat("./ctags", 0x7fbfffd8d0)           = -1 ENOENT (No such file or directory)
+stat("~/bin/ctags", 0x7fbfffd8d0)       = -1 ENOENT (No such file or directory)
+stat("/remote/catsglobal/ctags", 0x7fbfffd8d0) = -1 ENOENT (No such file or directory)
+stat("/bin/ctags", 0x7fbfffd8d0)        = -1 ENOENT (No such file or directory)
+stat("/usr/bin/ctags", {st_mode=S_IFREG|0755, st_size=157936, ...}) = 0
+access("/usr/bin/ctags", X_OK)          = 0
+close(3)                                = 0
+munmap(0x2a996c3000, 32768)             = 0
+open("/usr/share/vim/vim63/macros/vimfiles/plugin/", O_RDONLY|O_NONBLOCK|O_DIRECTORY) = -1 ENOENT (No such file or directory)
+open("/usr/share/vim/vim63/plugin/", O_RDONLY|O_NONBLOCK|O_DIRECTORY) = 3
+fstat(3, {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+fcntl(3, F_SETFD, FD_CLOEXEC)           = 0
+getdents64(3, /* 8 entries */, 4096)    = 240
+stat("/usr/share/vim/vim63/plugin/explorer.vim", {st_mode=S_IFREG|0644, st_size=34714, ...}) = 0
+stat("/usr/share/vim/vim63/plugin/explorer.vim", {st_mode=S_IFREG|0644, st_size=34714, ...}) = 0
+stat("/usr/share/vim/vim63/plugin/explorer.vim", {st_mode=S_IFREG|0644, st_size=34714, ...}) = 0
+stat("/usr/share/vim/vim63/plugin/tohtml.vim", {st_mode=S_IFREG|0644, st_size=705, ...}) = 0
+stat("/usr/share/vim/vim63/plugin/tohtml.vim", {st_mode=S_IFREG|0644, st_size=705, ...}) = 0
+stat("/usr/share/vim/vim63/plugin/tohtml.vim", {st_mode=S_IFREG|0644, st_size=705, ...}) = 0
+stat("/usr/share/vim/vim63/plugin/netrw.vim", {st_mode=S_IFREG|0644, st_size=40224, ...}) = 0
+stat("/usr/share/vim/vim63/plugin/netrw.vim", {st_mode=S_IFREG|0644, st_size=40224, ...}) = 0
+stat("/usr/share/vim/vim63/plugin/netrw.vim", {st_mode=S_IFREG|0644, st_size=40224, ...}) = 0
+stat("/usr/share/vim/vim63/plugin/rrhelper.vim", {st_mode=S_IFREG|0644, st_size=1362, ...}) = 0
+stat("/usr/share/vim/vim63/plugin/rrhelper.vim", {st_mode=S_IFREG|0644, st_size=1362, ...}) = 0
+stat("/usr/share/vim/vim63/plugin/rrhelper.vim", {st_mode=S_IFREG|0644, st_size=1362, ...}) = 0
+stat("/usr/share/vim/vim63/plugin/gzip.vim", {st_mode=S_IFREG|0644, st_size=4949, ...}) = 0
+stat("/usr/share/vim/vim63/plugin/gzip.vim", {st_mode=S_IFREG|0644, st_size=4949, ...}) = 0
+stat("/usr/share/vim/vim63/plugin/gzip.vim", {st_mode=S_IFREG|0644, st_size=4949, ...}) = 0
+getdents64(3, /* 0 entries */, 4096)    = 0
+close(3)                                = 0
+open(".", O_RDONLY)                     = 3
+fchdir(3)                               = 0
+chdir("/usr/share/vim/vim63/plugin")    = 0
+getcwd("/usr/share/vim/vim63/plugin", 1024) = 28
+fchdir(3)                               = 0
+close(3)                                = 0
+stat("/usr/share/vim/vim63/plugin/explorer.vim", {st_mode=S_IFREG|0644, st_size=34714, ...}) = 0
+open("/usr/share/vim/vim63/plugin/explorer.vim", O_RDONLY) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=34714, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x2a996c3000
+read(3, "\"==============================="..., 4096) = 4096
+lseek(3, 0, SEEK_SET)                   = 0
+stat("/usr/share/vim/vim63/plugin/explorer.vim", {st_mode=S_IFREG|0644, st_size=34714, ...}) = 0
+read(3, "\"==============================="..., 4096) = 4096
+stat("/remote/us01home4/jpcanepa/bin/bin/kfmclient", 0x7fbfffd8e0) = -1 ENOENT (No such file or directory)
+stat("/sbin/kfmclient", 0x7fbfffd8e0)   = -1 ENOENT (No such file or directory)
+stat("./kfmclient", 0x7fbfffd8e0)       = -1 ENOENT (No such file or directory)
+stat("./kfmclient", 0x7fbfffd8e0)       = -1 ENOENT (No such file or directory)
+stat("~/bin/kfmclient", 0x7fbfffd8e0)   = -1 ENOENT (No such file or directory)
+stat("/remote/catsglobal/kfmclient", 0x7fbfffd8e0) = -1 ENOENT (No such file or directory)
+stat("/bin/kfmclient", 0x7fbfffd8e0)    = -1 ENOENT (No such file or directory)
+stat("/usr/bin/kfmclient", {st_mode=S_IFREG|0755, st_size=5192, ...}) = 0
+access("/usr/bin/kfmclient", X_OK)      = 0
+read(3, "e(a:fn, \'%#\') . \"\'\" . redir\n    "..., 4096) = 4096
+read(3, " the conditional though...\n  if "..., 4096) = 4096
+read(3, " split window, and resize the or"..., 4096) = 4096
+read(3, "g to indicate whether we are sor"..., 4096) = 4096
+read(3, "\n\" Get the date of the file as a"..., 4096) = 4096
+brk(0x73a000)                           = 0x73a000
+read(3, "Path.altName)\n    if success!=0\n"..., 4096) = 4096
+read(3, "xtractFileDate(a:line1)\n  let t2"..., 4096) = 4096
+read(3, "\n    let lin=line(\".\")\n\n    \" Al"..., 4096) = 1946
+read(3, "", 4096)                       = 0
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+munmap(0x2a996c3000, 4096)              = 0
+open(".", O_RDONLY)                     = 3
+fchdir(3)                               = 0
+chdir("/usr/share/vim/vim63/plugin")    = 0
+getcwd("/usr/share/vim/vim63/plugin", 1024) = 28
+fchdir(3)                               = 0
+close(3)                                = 0
+stat("/usr/share/vim/vim63/plugin/gzip.vim", {st_mode=S_IFREG|0644, st_size=4949, ...}) = 0
+open("/usr/share/vim/vim63/plugin/gzip.vim", O_RDONLY) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=4949, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x2a996c3000
+read(3, "\" Vim plugin for editing compres"..., 4096) = 4096
+lseek(3, 0, SEEK_SET)                   = 0
+stat("/usr/share/vim/vim63/plugin/gzip.vim", {st_mode=S_IFREG|0644, st_size=4949, ...}) = 0
+read(3, "\" Vim plugin for editing compres"..., 4096) = 4096
+read(3, "ther file\n    let nm = expand(\"<"..., 4096) = 853
+read(3, "", 4096)                       = 0
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+munmap(0x2a996c3000, 4096)              = 0
+open(".", O_RDONLY)                     = 3
+fchdir(3)                               = 0
+chdir("/usr/share/vim/vim63/plugin")    = 0
+getcwd("/usr/share/vim/vim63/plugin", 1024) = 28
+fchdir(3)                               = 0
+close(3)                                = 0
+stat("/usr/share/vim/vim63/plugin/netrw.vim", {st_mode=S_IFREG|0644, st_size=40224, ...}) = 0
+open("/usr/share/vim/vim63/plugin/netrw.vim", O_RDONLY) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=40224, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x2a996c3000
+read(3, "\" netrw.vim: (global plugin) Han"..., 4096) = 4096
+lseek(3, 0, SEEK_SET)                   = 0
+stat("/usr/share/vim/vim63/plugin/netrw.vim", {st_mode=S_IFREG|0644, st_size=40224, ...}) = 0
+read(3, "\" netrw.vim: (global plugin) Han"..., 4096) = 4096
+stat("/remote/us01home4/jpcanepa/bin/bin/wget", 0x7fbfffd8e0) = -1 ENOENT (No such file or directory)
+stat("/sbin/wget", 0x7fbfffd8e0)        = -1 ENOENT (No such file or directory)
+stat("./wget", 0x7fbfffd8e0)            = -1 ENOENT (No such file or directory)
+stat("./wget", 0x7fbfffd8e0)            = -1 ENOENT (No such file or directory)
+stat("~/bin/wget", 0x7fbfffd8e0)        = -1 ENOENT (No such file or directory)
+stat("/remote/catsglobal/wget", 0x7fbfffd8e0) = -1 ENOENT (No such file or directory)
+stat("/bin/wget", 0x7fbfffd8e0)         = -1 ENOENT (No such file or directory)
+stat("/usr/bin/wget", {st_mode=S_IFREG|0755, st_size=222552, ...}) = 0
+access("/usr/bin/wget", X_OK)           = 0
+stat("/remote/us01home4/jpcanepa/bin/bin/fetch", 0x7fbfffd8e0) = -1 ENOENT (No such file or directory)
+stat("/sbin/fetch", 0x7fbfffd8e0)       = -1 ENOENT (No such file or directory)
+stat("./fetch", 0x7fbfffd8e0)           = -1 ENOENT (No such file or directory)
+stat("./fetch", 0x7fbfffd8e0)           = -1 ENOENT (No such file or directory)
+stat("~/bin/fetch", 0x7fbfffd8e0)       = -1 ENOENT (No such file or directory)
+stat("/remote/catsglobal/fetch", 0x7fbfffd8e0) = -1 ENOENT (No such file or directory)
+stat("/bin/fetch", 0x7fbfffd8e0)        = -1 ENOENT (No such file or directory)
+stat("/usr/bin/fetch", 0x7fbfffd8e0)    = -1 ENOENT (No such file or directory)
+stat("/usr/X11R6/bin/fetch", 0x7fbfffd8e0) = -1 ENOENT (No such file or directory)
+stat("/usr/local/bin/fetch", 0x7fbfffd8e0) = -1 ENOENT (No such file or directory)
+read(3, " cursor on screen {{{1\nfun! s:Ne"..., 4096) = 4096
+read(3, "\n\n  \"..........................."..., 4096) = 4096
+brk(0x75b000)                           = 0x75b000
+read(3, "l Decho(\"executing: !\".g:netrw_s"..., 4096) = 4096
+read(3, ".g:netrw_passwd.\'@\'.g:netrw_mach"..., 4096) = 4096
+read(3, "er-provided (ie. optional) fix-i"..., 4096) = 4096
+read(3, "\"..............................."..., 4096) = 4096
+read(3, "ync\n   if g:netrw_cygwin == 1\n  "..., 4096) = 4096
+brk(0x77c000)                           = 0x77c000
+brk(0x77b000)                           = 0x77b000
+read(3, "choice,scpurm,\'\\2\',\"\")\n  let b:n"..., 4096) = 4096
+read(3, "o(\"g:netrw_uid    <\".g:netrw_uid"..., 4096) = 3360
+read(3, "", 4096)                       = 0
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+munmap(0x2a996c3000, 4096)              = 0
+open(".", O_RDONLY)                     = 3
+fchdir(3)                               = 0
+chdir("/usr/share/vim/vim63/plugin")    = 0
+getcwd("/usr/share/vim/vim63/plugin", 1024) = 28
+fchdir(3)                               = 0
+close(3)                                = 0
+stat("/usr/share/vim/vim63/plugin/rrhelper.vim", {st_mode=S_IFREG|0644, st_size=1362, ...}) = 0
+open("/usr/share/vim/vim63/plugin/rrhelper.vim", O_RDONLY) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=1362, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x2a996c3000
+read(3, "\" Vim plugin with helper functio"..., 4096) = 1362
+lseek(3, 0, SEEK_SET)                   = 0
+stat("/usr/share/vim/vim63/plugin/rrhelper.vim", {st_mode=S_IFREG|0644, st_size=1362, ...}) = 0
+read(3, "\" Vim plugin with helper functio"..., 4096) = 1362
+read(3, "", 4096)                       = 0
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+munmap(0x2a996c3000, 4096)              = 0
+open(".", O_RDONLY)                     = 3
+fchdir(3)                               = 0
+chdir("/usr/share/vim/vim63/plugin")    = 0
+getcwd("/usr/share/vim/vim63/plugin", 1024) = 28
+fchdir(3)                               = 0
+close(3)                                = 0
+stat("/usr/share/vim/vim63/plugin/tohtml.vim", {st_mode=S_IFREG|0644, st_size=705, ...}) = 0
+open("/usr/share/vim/vim63/plugin/tohtml.vim", O_RDONLY) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=705, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x2a996c3000
+read(3, "\" Vim plugin for converting a sy"..., 4096) = 705
+lseek(3, 0, SEEK_SET)                   = 0
+stat("/usr/share/vim/vim63/plugin/tohtml.vim", {st_mode=S_IFREG|0644, st_size=705, ...}) = 0
+read(3, "\" Vim plugin for converting a sy"..., 4096) = 705
+read(3, "", 4096)                       = 0
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+munmap(0x2a996c3000, 4096)              = 0
+open("/usr/share/vim/vim63/macros/vimfiles/after/plugin/", O_RDONLY|O_NONBLOCK|O_DIRECTORY) = -1 ENOENT (No such file or directory)
+open("/remote/us01home4/jpcanepa/.vim/after/plugin/", O_RDONLY|O_NONBLOCK|O_DIRECTORY) = -1 ENOENT (No such file or directory)
+open("/remote/us01home4/jpcanepa/.viminfo", O_RDONLY) = 3
+fstat(3, {st_mode=S_IFREG|0600, st_size=10759, ...}) = 0
+mmap(NULL, 32768, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x2a996c3000
+read(3, "# This viminfo file was generate"..., 32768) = 10759
+close(3)                                = 0
+munmap(0x2a996c3000, 32768)             = 0
+ioctl(0, SNDCTL_TMR_TIMEBASE or TCGETS, {B38400 opost isig icanon echo ...}) = 0
+ioctl(0, SNDCTL_TMR_START or TCSETS, {B38400 opost -isig -icanon -echo ...}) = 0
+ioctl(0, SNDCTL_TMR_TIMEBASE or TCGETS, {B38400 opost -isig -icanon -echo ...}) = 0
+write(1, "\33[?1049h\33[?1h\33=", 15)   = 15
+ioctl(1, SNDCTL_TMR_TIMEBASE or TCGETS, {B38400 opost -isig -icanon -echo ...}) = 0
+getuid()                                = 12556
+socket(PF_FILE, SOCK_STREAM, 0)         = 3
+fcntl(3, F_GETFL)                       = 0x2 (flags O_RDWR)
+fcntl(3, F_SETFL, O_RDWR|O_NONBLOCK)    = 0
+connect(3, {sa_family=AF_FILE, path="/var/run/nscd/socket"}, 110) = 0
+poll([{fd=3, events=POLLOUT|POLLERR|POLLHUP, revents=POLLOUT}], 1, 5000) = 1
+sendto(3, "\2\0\0\0\v\0\0\0\7\0\0\0passwd\0\0", 20, MSG_NOSIGNAL, NULL, 0) = 20
+poll([{fd=3, events=POLLIN|POLLERR|POLLHUP, revents=POLLIN|POLLERR|POLLHUP}], 1, 5000) = 1
+recvmsg(3, {msg_name(0)=NULL, msg_iov(1)=[{"passwd\0", 7}], msg_controllen=24, {cmsg_len=20, cmsg_level=SOL_SOCKET, cmsg_type=SCM_RIGHTS, {4}}, msg_flags=0}, 0) = 7
+fstat(4, {st_mode=S_IFREG|0600, st_size=217016, ...}) = 0
+pread(4, "\1\0\0\0h\0\0\0|8\3\0\1\0\0\0\311\253\"K\0\0\0\0\323\0\0\0\0L\3\0"..., 104, 0) = 104
+mmap(NULL, 217016, PROT_READ, MAP_SHARED, 4, 0) = 0x2a996c3000
+close(4)                                = 0
+close(3)                                = 0
+uname({sys="Linux", node="hplc6-06", ...}) = 0
+select(1, [0], NULL, [0], {0, 0})       = 0 (Timeout)
+getcwd("/remote/us01home4/jpcanepa/.vim", 1024) = 32
+stat("/remote/us01home4/jpcanepa/.vim", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+getcwd("/remote/us01home4/jpcanepa/.vim", 1024) = 32
+select(1, [0], NULL, [0], {0, 0})       = 0 (Timeout)
+write(1, "\33[1;104r\33[34l\33[34h\33[?25h\33[23m\33[2"..., 44) = 44
+select(1, [0], NULL, [0], {0, 0})       = 0 (Timeout)
+write(1, "\33[?25l\33[1;1H\33[1m\33[33m      1 \33[0"..., 2040) = 2040
+write(1, "\33[9;1H~                         "..., 2047) = 2047
+write(1, "                                "..., 2047) = 2047
+write(1, "                                "..., 2047) = 2047
+write(1, "                                "..., 2047) = 2047
+write(1, "                                "..., 2047) = 2047
+write(1, "                                "..., 2047) = 2047
+write(1, "                                "..., 2047) = 2047
+write(1, "                    \33[59;1H~    "..., 2029) = 2029
+write(1, "\33[66;1H~                        "..., 2047) = 2047
+write(1, "                                "..., 2047) = 2047
+write(1, "                                "..., 2047) = 2047
+write(1, "                                "..., 2047) = 2047
+write(1, "                                "..., 2047) = 2047
+time(NULL)                              = 1263223598
+select(1, [0], NULL, [0], {0, 0})       = 0 (Timeout)
+write(1, "                                "..., 1206) = 1206
+select(1, [0], NULL, [0], {4, 0})       = 1 (in [0], left {2, 610000})
+select(1, [0], NULL, [0], NULL)         = 1 (in [0])
+read(0, ":", 250)                       = 1
+select(1, [0], NULL, [0], {0, 0})       = 0 (Timeout)
+select(1, [0], NULL, [0], {0, 0})       = 0 (Timeout)
+write(1, "\33[?25l\33[104;263H\33[K\33[104;1H:\33[34"..., 39) = 39
+select(1, [0], NULL, [0], {4, 0})       = 1 (in [0], left {3, 910000})
+select(1, [0], NULL, [0], NULL)         = 1 (in [0])
+read(0, "q", 250)                       = 1
+select(1, [0], NULL, [0], {0, 0})       = 0 (Timeout)
+select(1, [0], NULL, [0], {0, 0})       = 0 (Timeout)
+write(1, "q\33[?25l\33[34h\33[?25h", 18) = 18
+select(1, [0], NULL, [0], {4, 0})       = 1 (in [0], left {3, 250000})
+select(1, [0], NULL, [0], NULL)         = 1 (in [0])
+read(0, "\r", 250)                      = 1
+select(1, [0], NULL, [0], {0, 0})       = 0 (Timeout)
+write(1, "\r", 1)                       = 1
+open("/remote/us01home4/jpcanepa/.viminfo", O_RDONLY) = 3
+stat("/remote/us01home4/jpcanepa/.viminfo", {st_mode=S_IFREG|0600, st_size=10759, ...}) = 0
+getuid()                                = 12556
+getuid()                                = 12556
+stat("/remote/us01home4/jpcanepa/.viminfo.tmp", 0x7fbfffe1f0) = -1 ENOENT (No such file or directory)
+open("/remote/us01home4/jpcanepa/.viminfo.tmp", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 4
+chmod("/remote/us01home4/jpcanepa/.viminfo.tmp", 0600) = 0
+chown("/remote/us01home4/jpcanepa/.viminfo.tmp", 12556, 31) = 0
+fstat(3, {st_mode=S_IFREG|0600, st_size=10759, ...}) = 0
+mmap(NULL, 32768, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x2a996f8000
+read(3, "# This viminfo file was generate"..., 32768) = 10759
+fstat(4, {st_mode=S_IFREG|0600, st_size=0, ...}) = 0
+mmap(NULL, 32768, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x2a99700000
+read(3, "", 32768)                      = 0
+write(4, "# This viminfo file was generate"..., 10610) = 10610
+close(4)                                = 0
+munmap(0x2a99700000, 32768)             = 0
+close(3)                                = 0
+munmap(0x2a996f8000, 32768)             = 0
+stat("/remote/us01home4/jpcanepa/.viminfo.tmp", {st_mode=S_IFREG|0600, st_size=10610, ...}) = 0
+unlink("/remote/us01home4/jpcanepa/.viminfo") = 0
+rename("/remote/us01home4/jpcanepa/.viminfo.tmp", "/remote/us01home4/jpcanepa/.viminfo") = 0
+write(1, "\33[?25l", 6)                 = 6
+ioctl(0, SNDCTL_TMR_START or TCSETS, {B38400 opost isig icanon echo ...}) = 0
+ioctl(0, SNDCTL_TMR_TIMEBASE or TCGETS, {B38400 opost isig icanon echo ...}) = 0
+write(1, "\33[104;1H\33[K\33[104;1H\33[?1l\33>", 26) = 26
+write(1, "\33[34h\33[?25h\33[?1049l", 19) = 19
+exit_group(0)                           = ?
