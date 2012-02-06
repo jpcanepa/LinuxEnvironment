@@ -39,6 +39,16 @@
 :TlistUndebug	taglist.txt	/*:TlistUndebug*
 :TlistUnlock	taglist.txt	/*:TlistUnlock*
 :TlistUpdate	taglist.txt	/*:TlistUpdate*
+COMMENT	ccomments.txt	/*COMMENT*
+COMMENT-contents	ccomments.txt	/*COMMENT-contents*
+COMMENT-example	ccomments.txt	/*COMMENT-example*
+COMMENT-example1	ccomments.txt	/*COMMENT-example1*
+COMMENT-example2	ccomments.txt	/*COMMENT-example2*
+COMMENT-example3	ccomments.txt	/*COMMENT-example3*
+COMMENT-install	ccomments.txt	/*COMMENT-install*
+COMMENT-start	ccomments.txt	/*COMMENT-start*
+COMMENT-usage	ccomments.txt	/*COMMENT-usage*
+COMMENT.txt	ccomments.txt	/*COMMENT.txt*
 Tlist_Get_Tag_Prototype_By_Line()	taglist.txt	/*Tlist_Get_Tag_Prototype_By_Line()*
 Tlist_Get_Tagname_By_Line()	taglist.txt	/*Tlist_Get_Tagname_By_Line()*
 Tlist_Set_App()	taglist.txt	/*Tlist_Set_App()*
