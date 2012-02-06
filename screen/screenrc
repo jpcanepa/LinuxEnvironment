@@ -35,7 +35,12 @@ defscrollback 4096
 caption splitonly "%{ yb} %=%{ wr} %n %t %{-}"
 
 #hardstatus alwayslastline "%{+b kr}[ %H ] %{ky} Load: %l %-=%{kb} %c  %d.%m.%Y"
+
+# MINE:
 hardstatus alwayslastline "%{= kr}[ %H %{kR}Load: %l %{-}] %{= ky}%-w%{= rW}%n %t%{-}%+w %-=%{kg} %c  %d.%m.%Y"
+
+# CARLOS:
+#hardstatus alwayslastline '%{= kG}[ %{G}%H %{g} %{kR}Load: %l %{-}][%= %{= kw}%?%-Lw%?%{r}(%{W}%n %f%t%?(%u)%?%{r})%{w}%?%+Lw%?%?%= %{g}][%{B} %m-%d %{W} %c %{g}]'
 
 # default windows
 screen -t Misc   5 
