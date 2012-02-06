@@ -2,6 +2,6 @@
 ================
 
 So far, there are entries for
-* screen
-* tmux
-* vim
+ * screen
+ * tmux
+ * vim
