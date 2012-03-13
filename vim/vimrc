@@ -5,41 +5,17 @@ set expandtab
 set nowrap
 set autoindent
 set hlsearch
-"set term=ansi
 
-" `XTerm', `RXVT', `Gnome Terminal', and `Konsole' all claim to be "xterm";
-" `KVT' claims to be "xterm-color":
-if &term =~ 'xterm'
 
-	" `Gnome Terminal' fortunately sets $COLORTERM; it needs <BkSpc> and <Del>
-	" fixing, and it has a bug which causes spurious "c"s to appear, which can be
-	" fixed by unsetting t_RV:
-	if $COLORTERM == 'gnome-terminal'
-		execute 'set t_kb=' . nr2char(8)
-		" [Char 8 is <Ctrl>+H.]
-		fixdel
-		set t_RV=
-
-	" `XTerm', `Konsole', and `KVT' all also need <BkSpc> and <Del> fixing;
-	" there's no easy way of distinguishing these terminals from other things
-	" that claim to be "xterm", but `RXVT' sets $COLORTERM to "rxvt" and these
-	" don't:
-	elseif $COLORTERM == ''
-		execute 'set t_kb=' . nr2char(8)
-		fixdel
-
-	" The above won't work if an `XTerm' or `KVT' is started from within a `Gnome
-	" Terminal' or an `RXVT': the $COLORTERM setting will propagate; it's always
-	" OK with `Konsole' which explicitly sets $COLORTERM to "".
-
-	endif
-endif
+" 256 color 
+set t_Co=256
 
 " Set syntax highlighting
 if has('syntax') && (&t_Co > 2)
 	colorscheme josee
 	syntax on
 endif
+
 
 " Enable command <TAB> completion
 set wildmode=list:longest,full
@@ -65,48 +41,9 @@ set smartcase
 " Show the `best match so far' as search strings are typed:
 set incsearch
 
-" Assume the /g flag on :s substitutions to replace all matches in a line:
-" set gdefault
-
-" Have the h and l cursor keys wrap between lines (like <Space> and <BkSpc> do
-" by default), and ~ covert case over line breaks; also have the cursor keys
-" wrap in insert mode:
-set whichwrap=<,>,h,l,~,[,]
-
-" Page down with <Space> (like in `Lynx', `Mutt', `Pine', `Netscape Navigator',
-" `SLRN', `Less', and `More'); page up with - (like in `Lynx', `Mutt', `Pine'),
-" or <BkSpc> (like in `Netscape Navigator'):
-noremap <Space> <PageDown>
-noremap <BS> <PageUp>
-noremap - <PageUp>
-" [<Space> by default is like l, <BkSpc> like h, and - like k.]
-
-" Scroll the window (but leaving the cursor in the same place) by a couple of
-" lines up/down with <Ins>/<Del> (like in `Lynx'):
-noremap <Ins> 2<C-Y>
-noremap <Del> 2<C-E>
-" [<Ins> by default is like i, and <Del> like x.]
-
-" Use <F6> to cycle through split windows (and <Shift>+<F6> to cycle backwards,
-" where possible):
-nnoremap <F6> <C-W>w
-nnoremap <S-F6> <C-W>W
-
-" Use <Ctrl>+N/<Ctrl>+P to cycle through files:
-nnoremap <C-N> :next<CR>
-nnoremap <C-P> :prev<CR>
-" [<Ctrl>+N by default is like j, and <Ctrl>+P like k.]
-
 " Have % bounce between angled brackets, as well as t'other kinds:
 set matchpairs+=<:>
 set matchpairs+={:}
-
-" Have <F1> prompt for a help topic, rather than displaying the introduction
-" page, and have it do this from any mode:
-nnoremap <F1> :help<Space>
-vmap <F1> <C-C><F1>
-omap <F1> <C-C><F1>
-map! <F1> <C-C><F1>
 
 " Allows for backspace of items not inserted in this 'insert session'
 set backspace=2 
@@ -120,11 +57,6 @@ set number
 " Show matching brackets
 set showmatch
 
-" Fix backspace issue
-" NOTE: this should be done when working over DSA only
-"set t_kb=
-"fixdel
-
 " No word wrap
 set nowrap 
 
@@ -134,6 +66,12 @@ set nocst
 
 " Show cursor position
 set ruler
+
+" Fix in SCREEN / tmux
+set t_kb=
+
+set foldmethod=marker
+set diffopt+=iwhite
 
 " Gets the numeric keypad working in putty
 :imap <Esc>Oq 1
@@ -152,42 +90,12 @@ set ruler
 :imap <Esc>Ol +
 :imap <Esc>OS -
 
-" Fix in SCREEN / tmux
-set t_kb=
-
-set foldmethod=marker
-set diffopt+=iwhite
-
-"" Toggle between window splits (maximize/restore)
-"nnoremap <C-W>O :call MaximizeToggle ()<CR>
-"nnoremap <C-W>o :call MaximizeToggle ()<CR>
-"nnoremap <C-W><C-O> :call MaximizeToggle ()<CR>
-"
-"function! MaximizeToggle()
-"	if exists("s:maximize_session")
-"		exec "source " . s:maximize_session
-"		call delete(s:maximize_session)
-"		unlet s:maximize_session
-"		let &hidden=s:maximize_hidden_save
-"		unlet s:maximize_hidden_save
-"	else
-"		let s:maximize_hidden_save = &hidden
-"		let s:maximize_session = tempname()
-"		set hidden
-"		exec "mksession! " . s:maximize_session
-"		only
-"	endif
-"endfunction
-
 au BufNewFile,BufRead Master.make set filetype=make
 au BufNewFile,BufRead Master.hier set filetype=make
 
 :autocmd BufRead,BufNewFile *.cmake,CMakeLists.txt,*.cmake.in runtime! indent/cmake.vim 
 :autocmd BufRead,BufNewFile *.cmake,CMakeLists.txt,*.cmake.in setf cmake
 :autocmd BufRead,BufNewFile *.ctest,*.ctest.in setf cmake
-
-
-
 
 set diffexpr=MyDiff()
 function MyDiff()
@@ -201,8 +109,3 @@ function MyDiff()
 	silent execute "!diff -a --binary " . opt . v:fname_in . " " . v:fname_new ." > " . v:fname_out
 endfunction
 
-call pathogen#infect()
-
-" To load NERDTree automatically 
-"autocmd vimenter * NERDTree
-"autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
