@@ -5,6 +5,7 @@ set expandtab
 set nowrap
 set autoindent
 set hlsearch
+set cursorline
 
 
 " 256 color 
