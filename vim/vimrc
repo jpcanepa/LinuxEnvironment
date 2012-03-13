@@ -12,8 +12,7 @@ set t_Co=256
 
 " Set syntax highlighting
 if has('syntax') && (&t_Co > 2)
-	colorscheme josee
-	syntax on
+	colorscheme zenburn
 endif
 
 
