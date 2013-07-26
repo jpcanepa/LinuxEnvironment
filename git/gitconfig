@@ -5,3 +5,5 @@
     ui = true
 [include]
     path = ~/.gitconfig.me
+[push]
+	default = simple
