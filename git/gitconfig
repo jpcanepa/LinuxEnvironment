@@ -1,0 +1,7 @@
+[alias]
+    l = log --oneline --graph --decorate
+    ll = log --oneline --graph --decorate --all
+[color]
+    ui = true
+[include]
+    path = ~/.gitconfig.me
