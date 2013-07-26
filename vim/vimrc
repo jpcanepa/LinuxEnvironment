@@ -7,6 +7,20 @@ set autoindent
 set hlsearch
 set cursorline
 set nocompatible
+set scrolloff=4 
+set sidescrolloff=2
+
+set encoding=utf-8
+set laststatus=2
+
+" Leader for all mappings 
+let mapleader = "-"
+
+" Add an #ifdef LOG ... #endif guard arround the current line 
+nnoremap <leader>cc O#ifdef LOG<esc>jjO#endif<esc>
+
+" resync syntax highlighting
+nnoremap <leader>ss :syntax sync fromstart<cr>
 
 " 256 color 
 set t_Co=256
@@ -115,3 +129,4 @@ function MyDiff()
 endfunction
 
 call pathogen#infect()
+call pathogen#helptags()
