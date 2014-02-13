@@ -1,4 +1,5 @@
 syntax on
+set nocompatible
 set tabstop=4
 set shiftwidth=4
 set expandtab
@@ -9,7 +10,6 @@ set cursorline
 set nocompatible
 set scrolloff=4 
 set sidescrolloff=2
-
 set encoding=utf-8
 set laststatus=2
 
@@ -24,6 +24,7 @@ nnoremap <leader>ss :syntax sync fromstart<cr>
 
 " Open my vimrc
 nnoremap <leader>ev :vs $MYVIMRC<cr>
+nnoremap <leader>ee :!p4 edit %<cr>
 
 " 256 color 
 set t_Co=256
@@ -162,3 +163,19 @@ command W w
 command Q q
 
 set pastetoggle=<F2>
+
+" Set the theme for airline to powerlineish
+:autocmd VimEnter * AirlineTheme powerlineish
+
+" Disable X clipboard support if DISPLAY is set, because it 
+" greatly slows down console vim startup.
+if ! has( "gui_running" )
+    let g:display_num =
+                \ substitute( $DISPLAY ,
+                \ "^[[:alpha:]]*:\([[:digit:]]\+\)\.[[:digit:]]\+$" ,
+                \ "\1" , "" )
+    if ( g:display_num >= 0 )
+        set clipboard=exclude:.*
+    endif
+endif
+
