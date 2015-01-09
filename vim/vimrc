@@ -111,6 +111,9 @@ set diffopt+=iwhite
 
 set history=700
 
+" Search for tags file in the parent directories too
+set tags=tags;
+
 "
 " Mappings
 "
