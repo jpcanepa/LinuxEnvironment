@@ -1,6 +1,3 @@
-[submodule "vim/vim/bundle/gundo.vim"]
-	path = vim/vim/bundle/gundo.vim
-	url = http://github.com/sjl/gundo.vim.git
 [submodule "vim/vim/bundle/vim-less"]
 	path = vim/vim/bundle/vim-less
 	url = https://github.com/groenewege/vim-less.git
