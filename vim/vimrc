@@ -159,16 +159,13 @@ endfunction
 call pathogen#infect()
 call pathogen#helptags()
 
-let g:airline_theme="powerlineish"
+let g:airline_theme="luna"
 
 " Don't be such a dick, vim, and save/quit when I hold shift for too long.
 command W w
 command Q q
 
 set pastetoggle=<F2>
-
-" Set the theme for airline to powerlineish
-:autocmd VimEnter * AirlineTheme powerlineish
 
 " Disable X clipboard support if DISPLAY is set, because it 
 " greatly slows down console vim startup.
