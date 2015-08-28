@@ -179,3 +179,4 @@ if ! has( "gui_running" )
     endif
 endif
 
+let g:signify_vcs_list = ['perforce']
