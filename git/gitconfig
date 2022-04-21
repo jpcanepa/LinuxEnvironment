@@ -1,6 +1,17 @@
 [alias]
     l = log --oneline --graph --decorate
     ll = log --oneline --graph --decorate --all
+    la = log --all --graph --pretty=format:'%C(auto)%h%d %s %C(bold black)(%ar by <%aN>)%Creset'
+    law = log --all --graph --pretty=format:'%C(auto)%h%d %w(100,0,8)%s %C(bold black)(%ar by <%aN>)%Creset'
+    ld = log --graph --pretty=format:'%Cgreen%ad%Creset %C(auto)%h%d %C(bold black)<%aN>%Creset %s' --date=format-local:'%Y-%m-%d %H:%M (%a)'
+    lad = log --all --graph --pretty=format:'%Cgreen%ad%Creset %C(auto)%h%d %C(bold black)<%aN>%Creset %s' --date=format-local:'%Y-%m-%d %H:%M (%a)'
+    st = status
+    b = branch
+    br = branch
+    co = checkout
+    f = fetch --prune
+    m = merge --ff-only
+	cb = branch --show-current
 [color]
     ui = true
 [include]
